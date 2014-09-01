@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C91C23D19B4B849007A22F9 /* libFDMobihelpSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C91C22C19B4B849007A22F9 /* libFDMobihelpSDK.a */; };
+		3C91C23E19B4B849007A22F9 /* MHModel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C91C22D19B4B849007A22F9 /* MHModel.bundle */; };
+		3C91C23F19B4B849007A22F9 /* LeftBubbleFDDarkTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C91C23119B4B849007A22F9 /* LeftBubbleFDDarkTheme@2x.png */; };
+		3C91C24019B4B849007A22F9 /* LeftBubbleFDLightTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C91C23219B4B849007A22F9 /* LeftBubbleFDLightTheme@2x.png */; };
+		3C91C24119B4B849007A22F9 /* RightBubbleFDDarkTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C91C23319B4B849007A22F9 /* RightBubbleFDDarkTheme@2x.png */; };
+		3C91C24219B4B849007A22F9 /* RightBubbleFDLightTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C91C23419B4B849007A22F9 /* RightBubbleFDLightTheme@2x.png */; };
+		3C91C24319B4B849007A22F9 /* TextViewInnerFDDarkTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C91C23519B4B849007A22F9 /* TextViewInnerFDDarkTheme@2x.png */; };
+		3C91C24419B4B849007A22F9 /* TextViewInnerFDLightTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C91C23619B4B849007A22F9 /* TextViewInnerFDLightTheme@2x.png */; };
+		3C91C24519B4B849007A22F9 /* TextViewOuterFDDarkTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C91C23719B4B849007A22F9 /* TextViewOuterFDDarkTheme@2x.png */; };
+		3C91C24619B4B849007A22F9 /* TextViewOuterFDLightTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C91C23819B4B849007A22F9 /* TextViewOuterFDLightTheme@2x.png */; };
+		3C91C24719B4B849007A22F9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C91C23919B4B849007A22F9 /* Localizable.strings */; };
+		3C91C24819B4B849007A22F9 /* FDDarkTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C91C23B19B4B849007A22F9 /* FDDarkTheme.plist */; };
+		3C91C24919B4B849007A22F9 /* FDLightTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C91C23C19B4B849007A22F9 /* FDLightTheme.plist */; };
+		AD93D06419B4924B00D58776 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D06319B4924B00D58776 /* Foundation.framework */; };
+		AD93D06619B4924B00D58776 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D06519B4924B00D58776 /* CoreGraphics.framework */; };
+		AD93D06819B4924B00D58776 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D06719B4924B00D58776 /* UIKit.framework */; };
+		AD93D06E19B4924B00D58776 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD93D06C19B4924B00D58776 /* InfoPlist.strings */; };
+		AD93D07019B4924B00D58776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD93D06F19B4924B00D58776 /* main.m */; };
+		AD93D07419B4924B00D58776 /* FDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD93D07319B4924B00D58776 /* FDAppDelegate.m */; };
+		AD93D07619B4924B00D58776 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD93D07519B4924B00D58776 /* Images.xcassets */; };
+		AD93D09419B4926E00D58776 /* FDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD93D09319B4926E00D58776 /* FDViewController.m */; };
+		AD93D0B619B4B16E00D58776 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D0B519B4B16E00D58776 /* SystemConfiguration.framework */; };
+		AD93D0B819B4B17200D58776 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D0B719B4B17200D58776 /* CoreData.framework */; };
+		AD93D0BA19B4B17A00D58776 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D0B919B4B17A00D58776 /* MobileCoreServices.framework */; };
+		AD93D0BC19B4B18000D58776 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D0BB19B4B18000D58776 /* CoreTelephony.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C91C22C19B4B849007A22F9 /* libFDMobihelpSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFDMobihelpSDK.a; sourceTree = "<group>"; };
+		3C91C22D19B4B849007A22F9 /* MHModel.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MHModel.bundle; sourceTree = "<group>"; };
+		3C91C22E19B4B849007A22F9 /* Mobihelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mobihelp.h; sourceTree = "<group>"; };
+		3C91C23119B4B849007A22F9 /* LeftBubbleFDDarkTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LeftBubbleFDDarkTheme@2x.png"; sourceTree = "<group>"; };
+		3C91C23219B4B849007A22F9 /* LeftBubbleFDLightTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LeftBubbleFDLightTheme@2x.png"; sourceTree = "<group>"; };
+		3C91C23319B4B849007A22F9 /* RightBubbleFDDarkTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RightBubbleFDDarkTheme@2x.png"; sourceTree = "<group>"; };
+		3C91C23419B4B849007A22F9 /* RightBubbleFDLightTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RightBubbleFDLightTheme@2x.png"; sourceTree = "<group>"; };
+		3C91C23519B4B849007A22F9 /* TextViewInnerFDDarkTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewInnerFDDarkTheme@2x.png"; sourceTree = "<group>"; };
+		3C91C23619B4B849007A22F9 /* TextViewInnerFDLightTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewInnerFDLightTheme@2x.png"; sourceTree = "<group>"; };
+		3C91C23719B4B849007A22F9 /* TextViewOuterFDDarkTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewOuterFDDarkTheme@2x.png"; sourceTree = "<group>"; };
+		3C91C23819B4B849007A22F9 /* TextViewOuterFDLightTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewOuterFDLightTheme@2x.png"; sourceTree = "<group>"; };
+		3C91C23919B4B849007A22F9 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		3C91C23B19B4B849007A22F9 /* FDDarkTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FDDarkTheme.plist; sourceTree = "<group>"; };
+		3C91C23C19B4B849007A22F9 /* FDLightTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FDLightTheme.plist; sourceTree = "<group>"; };
+		AD93D06019B4924B00D58776 /* MobihelpSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobihelpSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD93D06319B4924B00D58776 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD93D06519B4924B00D58776 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD93D06719B4924B00D58776 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD93D06B19B4924B00D58776 /* MobihelpSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobihelpSampleApp-Info.plist"; sourceTree = "<group>"; };
+		AD93D06D19B4924B00D58776 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD93D06F19B4924B00D58776 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD93D07119B4924B00D58776 /* MobihelpSampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobihelpSampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		AD93D07219B4924B00D58776 /* FDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDAppDelegate.h; sourceTree = "<group>"; };
+		AD93D07319B4924B00D58776 /* FDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDAppDelegate.m; sourceTree = "<group>"; };
+		AD93D07519B4924B00D58776 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD93D07C19B4924B00D58776 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AD93D09219B4926E00D58776 /* FDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDViewController.h; sourceTree = "<group>"; };
+		AD93D09319B4926E00D58776 /* FDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDViewController.m; sourceTree = "<group>"; };
+		AD93D0B519B4B16E00D58776 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AD93D0B719B4B17200D58776 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AD93D0B919B4B17A00D58776 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AD93D0BB19B4B18000D58776 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD93D05D19B4924B00D58776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD93D0BC19B4B18000D58776 /* CoreTelephony.framework in Frameworks */,
+				AD93D0BA19B4B17A00D58776 /* MobileCoreServices.framework in Frameworks */,
+				AD93D0B819B4B17200D58776 /* CoreData.framework in Frameworks */,
+				AD93D0B619B4B16E00D58776 /* SystemConfiguration.framework in Frameworks */,
+				3C91C23D19B4B849007A22F9 /* libFDMobihelpSDK.a in Frameworks */,
+				AD93D06619B4924B00D58776 /* CoreGraphics.framework in Frameworks */,
+				AD93D06819B4924B00D58776 /* UIKit.framework in Frameworks */,
+				AD93D06419B4924B00D58776 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C91C22B19B4B849007A22F9 /* mobihelp_ios_v1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				3C91C22C19B4B849007A22F9 /* libFDMobihelpSDK.a */,
+				3C91C22D19B4B849007A22F9 /* MHModel.bundle */,
+				3C91C22E19B4B849007A22F9 /* Mobihelp.h */,
+				3C91C22F19B4B849007A22F9 /* MobihelpResources */,
+			);
+			path = mobihelp_ios_v1.0;
+			sourceTree = "<group>";
+		};
+		3C91C22F19B4B849007A22F9 /* MobihelpResources */ = {
+			isa = PBXGroup;
+			children = (
+				3C91C23019B4B849007A22F9 /* Images */,
+				3C91C23919B4B849007A22F9 /* Localizable.strings */,
+				3C91C23A19B4B849007A22F9 /* Themes */,
+			);
+			path = MobihelpResources;
+			sourceTree = "<group>";
+		};
+		3C91C23019B4B849007A22F9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3C91C23119B4B849007A22F9 /* LeftBubbleFDDarkTheme@2x.png */,
+				3C91C23219B4B849007A22F9 /* LeftBubbleFDLightTheme@2x.png */,
+				3C91C23319B4B849007A22F9 /* RightBubbleFDDarkTheme@2x.png */,
+				3C91C23419B4B849007A22F9 /* RightBubbleFDLightTheme@2x.png */,
+				3C91C23519B4B849007A22F9 /* TextViewInnerFDDarkTheme@2x.png */,
+				3C91C23619B4B849007A22F9 /* TextViewInnerFDLightTheme@2x.png */,
+				3C91C23719B4B849007A22F9 /* TextViewOuterFDDarkTheme@2x.png */,
+				3C91C23819B4B849007A22F9 /* TextViewOuterFDLightTheme@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3C91C23A19B4B849007A22F9 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				3C91C23B19B4B849007A22F9 /* FDDarkTheme.plist */,
+				3C91C23C19B4B849007A22F9 /* FDLightTheme.plist */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		AD93D05719B4924A00D58776 = {
+			isa = PBXGroup;
+			children = (
+				3C91C22B19B4B849007A22F9 /* mobihelp_ios_v1.0 */,
+				AD93D06919B4924B00D58776 /* MobihelpSampleApp */,
+				AD93D06219B4924B00D58776 /* Frameworks */,
+				AD93D06119B4924B00D58776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD93D06119B4924B00D58776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD93D06019B4924B00D58776 /* MobihelpSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD93D06219B4924B00D58776 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD93D0BB19B4B18000D58776 /* CoreTelephony.framework */,
+				AD93D0B919B4B17A00D58776 /* MobileCoreServices.framework */,
+				AD93D0B719B4B17200D58776 /* CoreData.framework */,
+				AD93D0B519B4B16E00D58776 /* SystemConfiguration.framework */,
+				AD93D06319B4924B00D58776 /* Foundation.framework */,
+				AD93D06519B4924B00D58776 /* CoreGraphics.framework */,
+				AD93D06719B4924B00D58776 /* UIKit.framework */,
+				AD93D07C19B4924B00D58776 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD93D06919B4924B00D58776 /* MobihelpSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				AD93D07219B4924B00D58776 /* FDAppDelegate.h */,
+				AD93D07319B4924B00D58776 /* FDAppDelegate.m */,
+				AD93D09219B4926E00D58776 /* FDViewController.h */,
+				AD93D09319B4926E00D58776 /* FDViewController.m */,
+				AD93D07519B4924B00D58776 /* Images.xcassets */,
+				AD93D06A19B4924B00D58776 /* Supporting Files */,
+			);
+			path = MobihelpSampleApp;
+			sourceTree = "<group>";
+		};
+		AD93D06A19B4924B00D58776 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD93D06B19B4924B00D58776 /* MobihelpSampleApp-Info.plist */,
+				AD93D06C19B4924B00D58776 /* InfoPlist.strings */,
+				AD93D06F19B4924B00D58776 /* main.m */,
+				AD93D07119B4924B00D58776 /* MobihelpSampleApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD93D05F19B4924B00D58776 /* MobihelpSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD93D08C19B4924C00D58776 /* Build configuration list for PBXNativeTarget "MobihelpSampleApp" */;
+			buildPhases = (
+				AD93D05C19B4924B00D58776 /* Sources */,
+				AD93D05D19B4924B00D58776 /* Frameworks */,
+				AD93D05E19B4924B00D58776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobihelpSampleApp;
+			productName = MobihelpSampleApp;
+			productReference = AD93D06019B4924B00D58776 /* MobihelpSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD93D05819B4924A00D58776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Freshdesk;
+			};
+			buildConfigurationList = AD93D05B19B4924A00D58776 /* Build configuration list for PBXProject "MobihelpSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD93D05719B4924A00D58776;
+			productRefGroup = AD93D06119B4924B00D58776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD93D05F19B4924B00D58776 /* MobihelpSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD93D05E19B4924B00D58776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C91C24019B4B849007A22F9 /* LeftBubbleFDLightTheme@2x.png in Resources */,
+				3C91C24819B4B849007A22F9 /* FDDarkTheme.plist in Resources */,
+				3C91C24719B4B849007A22F9 /* Localizable.strings in Resources */,
+				3C91C24219B4B849007A22F9 /* RightBubbleFDLightTheme@2x.png in Resources */,
+				3C91C24619B4B849007A22F9 /* TextViewOuterFDLightTheme@2x.png in Resources */,
+				3C91C24419B4B849007A22F9 /* TextViewInnerFDLightTheme@2x.png in Resources */,
+				3C91C24119B4B849007A22F9 /* RightBubbleFDDarkTheme@2x.png in Resources */,
+				3C91C24519B4B849007A22F9 /* TextViewOuterFDDarkTheme@2x.png in Resources */,
+				3C91C23E19B4B849007A22F9 /* MHModel.bundle in Resources */,
+				AD93D06E19B4924B00D58776 /* InfoPlist.strings in Resources */,
+				AD93D07619B4924B00D58776 /* Images.xcassets in Resources */,
+				3C91C23F19B4B849007A22F9 /* LeftBubbleFDDarkTheme@2x.png in Resources */,
+				3C91C24319B4B849007A22F9 /* TextViewInnerFDDarkTheme@2x.png in Resources */,
+				3C91C24919B4B849007A22F9 /* FDLightTheme.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD93D05C19B4924B00D58776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD93D07419B4924B00D58776 /* FDAppDelegate.m in Sources */,
+				AD93D07019B4924B00D58776 /* main.m in Sources */,
+				AD93D09419B4926E00D58776 /* FDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD93D06C19B4924B00D58776 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD93D06D19B4924B00D58776 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD93D08A19B4924B00D58776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD93D08B19B4924B00D58776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD93D08D19B4924C00D58776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobihelpSampleApp/MobihelpSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "MobihelpSampleApp/MobihelpSampleApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mobihelp_ios_v1.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD93D08E19B4924C00D58776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobihelpSampleApp/MobihelpSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "MobihelpSampleApp/MobihelpSampleApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mobihelp_ios_v1.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD93D05B19B4924A00D58776 /* Build configuration list for PBXProject "MobihelpSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD93D08A19B4924B00D58776 /* Debug */,
+				AD93D08B19B4924B00D58776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD93D08C19B4924C00D58776 /* Build configuration list for PBXNativeTarget "MobihelpSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD93D08D19B4924C00D58776 /* Debug */,
+				AD93D08E19B4924C00D58776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD93D05819B4924A00D58776 /* Project object */;
+}
