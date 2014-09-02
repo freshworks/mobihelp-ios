@@ -35,11 +35,25 @@
  * Setup up Views
  */
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
     [self setupSubviews];
     [self setupConstraints];
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self updateUnreadNotesCount];
+}
+
+/*
+ * Show unread Notification Count to User
+ */
+-(void)updateUnreadNotesCount{
+    [[Mobihelp sharedInstance]unreadCountWithCompletion:^(NSInteger count) {
+        NSString *supportButtonTitle = (count) ? [NSString stringWithFormat:@"Support(%d)",(int)count] : @"Support";
+        [self.supportButton setTitle:supportButtonTitle forState:UIControlStateNormal];
+    }];
 }
 
 - (void)setupSubviews {
@@ -289,11 +303,6 @@
                                                          multiplier:1.0
                                                            constant:-20.0]];
 
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
 }
 
 @end
