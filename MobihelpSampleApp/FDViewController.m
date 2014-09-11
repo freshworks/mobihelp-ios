@@ -37,12 +37,14 @@
 
 - (void)viewDidLoad{
     [super viewDidLoad];
+    NSLog(@"App Launched");
     [self setupSubviews];
     [self setupConstraints];
 }
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+    [[Mobihelp sharedInstance]leaveBreadcrumb:@"Launched main viewcontroller"];
     [self updateUnreadNotesCount];
 }
 
@@ -52,6 +54,7 @@
 -(void)updateUnreadNotesCount{
     [[Mobihelp sharedInstance]unreadCountWithCompletion:^(NSInteger count) {
         NSString *supportButtonTitle = (count) ? [NSString stringWithFormat:@"Support(%d)",(int)count] : @"Support";
+        NSLog(@"Unread Notes Count %d",(int)count);
         [self.supportButton setTitle:supportButtonTitle forState:UIControlStateNormal];
     }];
 }
