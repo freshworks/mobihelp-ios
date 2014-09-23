@@ -1,0 +1,23 @@
+Mobihelp SDK - Freshdesk
+
+Documentation   : http://developer.freshdesk.com/mobihelp
+Support         : http://support.freshdesk.com
+Email           : support@freshdesk.com
+
+**********************************************
+Ver 1.1
+__________________________
+
+Full iOS 8 Compatibility.
+Added Video Playback in Solutions.
+API simplified for fetching setting User Info.
+Optimized for iPhone 6 and iPhone 6 Plus Screens 
+Minor fixes and Improvements.
+
+**********************************************
+Ver 1.0
+__________________________
+
+Initial Release. 
+
+**********************************************

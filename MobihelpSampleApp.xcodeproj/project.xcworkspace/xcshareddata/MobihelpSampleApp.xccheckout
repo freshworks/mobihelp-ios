@@ -10,29 +10,29 @@
 	<string>MobihelpSampleApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>BBC9D42C-A88B-4D57-B8DA-23D5BD02187B</key>
+		<key>458F65150C393C0BBADAB0ED4003BD86B5E5059F</key>
 		<string>ssh://github.com/freshdesk/mobihelp-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MobihelpSampleApp.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>BBC9D42C-A88B-4D57-B8DA-23D5BD02187B</key>
+		<key>458F65150C393C0BBADAB0ED4003BD86B5E5059F</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/freshdesk/mobihelp-ios.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>BBC9D42C-A88B-4D57-B8DA-23D5BD02187B</string>
+	<string>458F65150C393C0BBADAB0ED4003BD86B5E5059F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>BBC9D42C-A88B-4D57-B8DA-23D5BD02187B</string>
+			<string>458F65150C393C0BBADAB0ED4003BD86B5E5059F</string>
 			<key>IDESourceControlWCCName</key>
 			<string>mobihelp-ios</string>
 		</dict>

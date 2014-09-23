@@ -29,6 +29,9 @@
     
     //Initialize Mobihelp. This needs to be called only once in the App.
     [[Mobihelp sharedInstance]initWithConfig:config];
+    [[Mobihelp sharedInstance]setEmailAddress:@"johndoe@example.com"];
+    [[Mobihelp sharedInstance]setUserName:@"John Doe"];
+    
 }
 
 -(void)rootControllerSetup{
