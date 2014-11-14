@@ -31,7 +31,6 @@
     [[Mobihelp sharedInstance]initWithConfig:config];
     [[Mobihelp sharedInstance]setEmailAddress:@"johndoe@example.com"];
     [[Mobihelp sharedInstance]setUserName:@"John Doe"];
-    
 }
 
 -(void)rootControllerSetup{

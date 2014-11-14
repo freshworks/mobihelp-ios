@@ -1,0 +1,43 @@
+Mobihelp iOS SDK - Powered by Freshdesk
+
+Documentation   : http://developer.freshdesk.com/mobihelp
+Support         : http://support.freshdesk.com
+Email           : support@freshdesk.com
+
+Ver 1.1.4
+__________________________
+Multiline support for long article and folder titles
+Metadata - Make , Platform and App Version fixed
+More Theming options for Text view and Text fields
+Minor UI Fixes
+
+Ver 1.1.3
+__________________________
+Metal Framework Linkage Issue fixed for iOS7 / armv7
+Updated Integration Guide for Linked Frameworks
+Customization added for 'My Conversations' Button
+
+Ver 1.1.2
+__________________________
+Minor fixes
+
+Ver 1.1.1
+__________________________
+Size Optimization 
+Prefixed Localizable Strings 
+Fixed Battery Level indicator Issue
+Minor fixes
+
+Ver 1.1
+__________________________
+
+Full iOS 8 Compatibility.
+Added Video Playback in Solutions.
+API simplified for fetching setting User Info.
+Optimized for iPhone 6 and iPhone 6 Plus Screens 
+Minor fixes and Improvements.
+
+Ver 1.0
+__________________________
+
+Initial Release. 
