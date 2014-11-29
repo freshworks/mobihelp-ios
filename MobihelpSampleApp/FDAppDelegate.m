@@ -25,7 +25,11 @@
 -(void)mobihelpIntegration{
     //Initialize configuration
     MobihelpConfig *config = [[MobihelpConfig alloc]initWithDomain:@"yourdomain.freshdesk.com" withAppKey:@"<app key>" andAppSecret:@"<app secret>"];
-    config.feedbackType = FEEDBACK_TYPE_NAME_REQUIRED_AND_EMAIL_OPTIONAL;
+    config.feedbackType = FEEDBACK_TYPE_NAME_AND_EMAIL_REQUIRED;
+    
+    config.enableAutoReply = YES; //Enable Auto Reply
+    
+    config.launchCountForAppReviewPrompt = 10; // Show review Automatically after 10 launches.
     
     //Initialize Mobihelp. This needs to be called only once in the App.
     [[Mobihelp sharedInstance]initWithConfig:config];

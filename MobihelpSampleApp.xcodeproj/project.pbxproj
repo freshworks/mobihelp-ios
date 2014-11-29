@@ -7,6 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C2709931A29C907002AF334 /* libFDMobihelpSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C27096B1A29C907002AF334 /* libFDMobihelpSDK.a */; };
+		3C2709941A29C907002AF334 /* MHModel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C27096C1A29C907002AF334 /* MHModel.bundle */; };
+		3C2709951A29C907002AF334 /* AttachmentPinFDDarkTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709711A29C907002AF334 /* AttachmentPinFDDarkTheme@2x.png */; };
+		3C2709961A29C907002AF334 /* AttachmentPinFDLightTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709721A29C907002AF334 /* AttachmentPinFDLightTheme@2x.png */; };
+		3C2709971A29C907002AF334 /* FDAngleMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709731A29C907002AF334 /* FDAngleMask@2x.png */; };
+		3C2709981A29C907002AF334 /* FDError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709741A29C907002AF334 /* FDError@2x.png */; };
+		3C2709991A29C907002AF334 /* FDSuccess@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709751A29C907002AF334 /* FDSuccess@2x.png */; };
+		3C27099A1A29C907002AF334 /* LeftBubbleFDDarkTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709761A29C907002AF334 /* LeftBubbleFDDarkTheme@2x.png */; };
+		3C27099B1A29C907002AF334 /* LeftBubbleFDLightTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709771A29C907002AF334 /* LeftBubbleFDLightTheme@2x.png */; };
+		3C27099C1A29C907002AF334 /* RightBubbleFDDarkTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709781A29C907002AF334 /* RightBubbleFDDarkTheme@2x.png */; };
+		3C27099D1A29C907002AF334 /* RightBubbleFDLightTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709791A29C907002AF334 /* RightBubbleFDLightTheme@2x.png */; };
+		3C27099E1A29C907002AF334 /* TextViewInnerFDDarkTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C27097A1A29C907002AF334 /* TextViewInnerFDDarkTheme@2x.png */; };
+		3C27099F1A29C907002AF334 /* TextViewInnerFDLightTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C27097B1A29C907002AF334 /* TextViewInnerFDLightTheme@2x.png */; };
+		3C2709A01A29C907002AF334 /* TextViewOuterFDDarkTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C27097C1A29C907002AF334 /* TextViewOuterFDDarkTheme@2x.png */; };
+		3C2709A11A29C907002AF334 /* TextViewOuterFDLightTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C27097D1A29C907002AF334 /* TextViewOuterFDLightTheme@2x.png */; };
+		3C2709A21A29C907002AF334 /* AttachmentPinFDDarkTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C27097F1A29C907002AF334 /* AttachmentPinFDDarkTheme@3x.png */; };
+		3C2709A31A29C907002AF334 /* AttachmentPinFDLightTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709801A29C907002AF334 /* AttachmentPinFDLightTheme@3x.png */; };
+		3C2709A41A29C907002AF334 /* FDAngleMask@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709811A29C907002AF334 /* FDAngleMask@3x.png */; };
+		3C2709A51A29C907002AF334 /* FDError@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709821A29C907002AF334 /* FDError@3x.png */; };
+		3C2709A61A29C907002AF334 /* FDSuccess@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709831A29C907002AF334 /* FDSuccess@3x.png */; };
+		3C2709A71A29C907002AF334 /* LeftBubbleFDDarkTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709841A29C907002AF334 /* LeftBubbleFDDarkTheme@3x.png */; };
+		3C2709A81A29C907002AF334 /* LeftBubbleFDLightTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709851A29C907002AF334 /* LeftBubbleFDLightTheme@3x.png */; };
+		3C2709A91A29C907002AF334 /* RightBubbleFDDarkTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709861A29C907002AF334 /* RightBubbleFDDarkTheme@3x.png */; };
+		3C2709AA1A29C907002AF334 /* RightBubbleFDLightTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709871A29C907002AF334 /* RightBubbleFDLightTheme@3x.png */; };
+		3C2709AB1A29C907002AF334 /* TextViewInnerFDDarkTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709881A29C907002AF334 /* TextViewInnerFDDarkTheme@3x.png */; };
+		3C2709AC1A29C907002AF334 /* TextViewInnerFDLightTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709891A29C907002AF334 /* TextViewInnerFDLightTheme@3x.png */; };
+		3C2709AD1A29C907002AF334 /* TextViewOuterFDDarkTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C27098A1A29C907002AF334 /* TextViewOuterFDDarkTheme@3x.png */; };
+		3C2709AE1A29C907002AF334 /* TextViewOuterFDLightTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C27098B1A29C907002AF334 /* TextViewOuterFDLightTheme@3x.png */; };
+		3C2709AF1A29C907002AF334 /* MHLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C27098D1A29C907002AF334 /* MHLocalizable.strings */; };
+		3C2709B01A29C907002AF334 /* FDDarkTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709901A29C907002AF334 /* FDDarkTheme.plist */; };
+		3C2709B11A29C907002AF334 /* FDLightTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709911A29C907002AF334 /* FDLightTheme.plist */; };
+		3C2709B21A29C907002AF334 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C2709921A29C907002AF334 /* ReleaseNotes.txt */; };
 		3C5A5ACB19E2C47F005639CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D06719B4924B00D58776 /* UIKit.framework */; };
 		3C5A5ACE19E2C4B3005639CC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5A5ACD19E2C4B3005639CC /* Security.framework */; };
 		3C5A5ACF19E2C4CD005639CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D06519B4924B00D58776 /* CoreGraphics.framework */; };
@@ -21,37 +53,42 @@
 		AD93D0B819B4B17200D58776 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D0B719B4B17200D58776 /* CoreData.framework */; };
 		AD93D0BA19B4B17A00D58776 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D0B919B4B17A00D58776 /* MobileCoreServices.framework */; };
 		AD93D0BC19B4B18000D58776 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D0BB19B4B18000D58776 /* CoreTelephony.framework */; };
-		D00A39F81A1632F0007F7FAC /* libFDMobihelpSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D00A39D41A1632F0007F7FAC /* libFDMobihelpSDK.a */; };
-		D00A39F91A1632F0007F7FAC /* MHModel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D00A39D51A1632F0007F7FAC /* MHModel.bundle */; };
-		D00A39FA1A1632F0007F7FAC /* FDAngleMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39DA1A1632F0007F7FAC /* FDAngleMask@2x.png */; };
-		D00A39FB1A1632F0007F7FAC /* FDError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39DB1A1632F0007F7FAC /* FDError@2x.png */; };
-		D00A39FC1A1632F0007F7FAC /* FDSuccess@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39DC1A1632F0007F7FAC /* FDSuccess@2x.png */; };
-		D00A39FD1A1632F0007F7FAC /* LeftBubbleFDDarkTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39DD1A1632F0007F7FAC /* LeftBubbleFDDarkTheme@2x.png */; };
-		D00A39FE1A1632F0007F7FAC /* LeftBubbleFDLightTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39DE1A1632F0007F7FAC /* LeftBubbleFDLightTheme@2x.png */; };
-		D00A39FF1A1632F0007F7FAC /* RightBubbleFDDarkTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39DF1A1632F0007F7FAC /* RightBubbleFDDarkTheme@2x.png */; };
-		D00A3A001A1632F0007F7FAC /* RightBubbleFDLightTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39E01A1632F0007F7FAC /* RightBubbleFDLightTheme@2x.png */; };
-		D00A3A011A1632F0007F7FAC /* TextViewInnerFDDarkTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39E11A1632F0007F7FAC /* TextViewInnerFDDarkTheme@2x.png */; };
-		D00A3A021A1632F0007F7FAC /* TextViewInnerFDLightTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39E21A1632F0007F7FAC /* TextViewInnerFDLightTheme@2x.png */; };
-		D00A3A031A1632F0007F7FAC /* TextViewOuterFDDarkTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39E31A1632F0007F7FAC /* TextViewOuterFDDarkTheme@2x.png */; };
-		D00A3A041A1632F0007F7FAC /* TextViewOuterFDLightTheme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39E41A1632F0007F7FAC /* TextViewOuterFDLightTheme@2x.png */; };
-		D00A3A051A1632F0007F7FAC /* FDAngleMask@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39E61A1632F0007F7FAC /* FDAngleMask@3x.png */; };
-		D00A3A061A1632F0007F7FAC /* FDError@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39E71A1632F0007F7FAC /* FDError@3x.png */; };
-		D00A3A071A1632F0007F7FAC /* FDSuccess@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39E81A1632F0007F7FAC /* FDSuccess@3x.png */; };
-		D00A3A081A1632F0007F7FAC /* LeftBubbleFDDarkTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39E91A1632F0007F7FAC /* LeftBubbleFDDarkTheme@3x.png */; };
-		D00A3A091A1632F0007F7FAC /* LeftBubbleFDLightTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39EA1A1632F0007F7FAC /* LeftBubbleFDLightTheme@3x.png */; };
-		D00A3A0A1A1632F0007F7FAC /* RightBubbleFDDarkTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39EB1A1632F0007F7FAC /* RightBubbleFDDarkTheme@3x.png */; };
-		D00A3A0B1A1632F0007F7FAC /* RightBubbleFDLightTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39EC1A1632F0007F7FAC /* RightBubbleFDLightTheme@3x.png */; };
-		D00A3A0C1A1632F0007F7FAC /* TextViewInnerFDDarkTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39ED1A1632F0007F7FAC /* TextViewInnerFDDarkTheme@3x.png */; };
-		D00A3A0D1A1632F0007F7FAC /* TextViewInnerFDLightTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39EE1A1632F0007F7FAC /* TextViewInnerFDLightTheme@3x.png */; };
-		D00A3A0E1A1632F0007F7FAC /* TextViewOuterFDDarkTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39EF1A1632F0007F7FAC /* TextViewOuterFDDarkTheme@3x.png */; };
-		D00A3A0F1A1632F0007F7FAC /* TextViewOuterFDLightTheme@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00A39F01A1632F0007F7FAC /* TextViewOuterFDLightTheme@3x.png */; };
-		D00A3A101A1632F0007F7FAC /* MHLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D00A39F21A1632F0007F7FAC /* MHLocalizable.strings */; };
-		D00A3A111A1632F0007F7FAC /* FDDarkTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = D00A39F51A1632F0007F7FAC /* FDDarkTheme.plist */; };
-		D00A3A121A1632F0007F7FAC /* FDLightTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = D00A39F61A1632F0007F7FAC /* FDLightTheme.plist */; };
-		D00A3A131A1632F0007F7FAC /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = D00A39F71A1632F0007F7FAC /* ReleaseNotes.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C27096B1A29C907002AF334 /* libFDMobihelpSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFDMobihelpSDK.a; sourceTree = "<group>"; };
+		3C27096C1A29C907002AF334 /* MHModel.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MHModel.bundle; sourceTree = "<group>"; };
+		3C27096D1A29C907002AF334 /* Mobihelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mobihelp.h; sourceTree = "<group>"; };
+		3C2709711A29C907002AF334 /* AttachmentPinFDDarkTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AttachmentPinFDDarkTheme@2x.png"; sourceTree = "<group>"; };
+		3C2709721A29C907002AF334 /* AttachmentPinFDLightTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AttachmentPinFDLightTheme@2x.png"; sourceTree = "<group>"; };
+		3C2709731A29C907002AF334 /* FDAngleMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FDAngleMask@2x.png"; sourceTree = "<group>"; };
+		3C2709741A29C907002AF334 /* FDError@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FDError@2x.png"; sourceTree = "<group>"; };
+		3C2709751A29C907002AF334 /* FDSuccess@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FDSuccess@2x.png"; sourceTree = "<group>"; };
+		3C2709761A29C907002AF334 /* LeftBubbleFDDarkTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LeftBubbleFDDarkTheme@2x.png"; sourceTree = "<group>"; };
+		3C2709771A29C907002AF334 /* LeftBubbleFDLightTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LeftBubbleFDLightTheme@2x.png"; sourceTree = "<group>"; };
+		3C2709781A29C907002AF334 /* RightBubbleFDDarkTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RightBubbleFDDarkTheme@2x.png"; sourceTree = "<group>"; };
+		3C2709791A29C907002AF334 /* RightBubbleFDLightTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RightBubbleFDLightTheme@2x.png"; sourceTree = "<group>"; };
+		3C27097A1A29C907002AF334 /* TextViewInnerFDDarkTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewInnerFDDarkTheme@2x.png"; sourceTree = "<group>"; };
+		3C27097B1A29C907002AF334 /* TextViewInnerFDLightTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewInnerFDLightTheme@2x.png"; sourceTree = "<group>"; };
+		3C27097C1A29C907002AF334 /* TextViewOuterFDDarkTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewOuterFDDarkTheme@2x.png"; sourceTree = "<group>"; };
+		3C27097D1A29C907002AF334 /* TextViewOuterFDLightTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewOuterFDLightTheme@2x.png"; sourceTree = "<group>"; };
+		3C27097F1A29C907002AF334 /* AttachmentPinFDDarkTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AttachmentPinFDDarkTheme@3x.png"; sourceTree = "<group>"; };
+		3C2709801A29C907002AF334 /* AttachmentPinFDLightTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AttachmentPinFDLightTheme@3x.png"; sourceTree = "<group>"; };
+		3C2709811A29C907002AF334 /* FDAngleMask@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FDAngleMask@3x.png"; sourceTree = "<group>"; };
+		3C2709821A29C907002AF334 /* FDError@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FDError@3x.png"; sourceTree = "<group>"; };
+		3C2709831A29C907002AF334 /* FDSuccess@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FDSuccess@3x.png"; sourceTree = "<group>"; };
+		3C2709841A29C907002AF334 /* LeftBubbleFDDarkTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LeftBubbleFDDarkTheme@3x.png"; sourceTree = "<group>"; };
+		3C2709851A29C907002AF334 /* LeftBubbleFDLightTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LeftBubbleFDLightTheme@3x.png"; sourceTree = "<group>"; };
+		3C2709861A29C907002AF334 /* RightBubbleFDDarkTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RightBubbleFDDarkTheme@3x.png"; sourceTree = "<group>"; };
+		3C2709871A29C907002AF334 /* RightBubbleFDLightTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RightBubbleFDLightTheme@3x.png"; sourceTree = "<group>"; };
+		3C2709881A29C907002AF334 /* TextViewInnerFDDarkTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewInnerFDDarkTheme@3x.png"; sourceTree = "<group>"; };
+		3C2709891A29C907002AF334 /* TextViewInnerFDLightTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewInnerFDLightTheme@3x.png"; sourceTree = "<group>"; };
+		3C27098A1A29C907002AF334 /* TextViewOuterFDDarkTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewOuterFDDarkTheme@3x.png"; sourceTree = "<group>"; };
+		3C27098B1A29C907002AF334 /* TextViewOuterFDLightTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewOuterFDLightTheme@3x.png"; sourceTree = "<group>"; };
+		3C27098E1A29C907002AF334 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MHLocalizable.strings; sourceTree = "<group>"; };
+		3C2709901A29C907002AF334 /* FDDarkTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FDDarkTheme.plist; sourceTree = "<group>"; };
+		3C2709911A29C907002AF334 /* FDLightTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FDLightTheme.plist; sourceTree = "<group>"; };
+		3C2709921A29C907002AF334 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
 		3C5A5AC119E2C359005639CC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		3C5A5AC419E2C415005639CC /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		3C5A5AC719E2C44D005639CC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
@@ -75,35 +112,6 @@
 		AD93D0B719B4B17200D58776 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AD93D0B919B4B17A00D58776 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		AD93D0BB19B4B18000D58776 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		D00A39D41A1632F0007F7FAC /* libFDMobihelpSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFDMobihelpSDK.a; sourceTree = "<group>"; };
-		D00A39D51A1632F0007F7FAC /* MHModel.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MHModel.bundle; sourceTree = "<group>"; };
-		D00A39D61A1632F0007F7FAC /* Mobihelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mobihelp.h; sourceTree = "<group>"; };
-		D00A39DA1A1632F0007F7FAC /* FDAngleMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FDAngleMask@2x.png"; sourceTree = "<group>"; };
-		D00A39DB1A1632F0007F7FAC /* FDError@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FDError@2x.png"; sourceTree = "<group>"; };
-		D00A39DC1A1632F0007F7FAC /* FDSuccess@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FDSuccess@2x.png"; sourceTree = "<group>"; };
-		D00A39DD1A1632F0007F7FAC /* LeftBubbleFDDarkTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LeftBubbleFDDarkTheme@2x.png"; sourceTree = "<group>"; };
-		D00A39DE1A1632F0007F7FAC /* LeftBubbleFDLightTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LeftBubbleFDLightTheme@2x.png"; sourceTree = "<group>"; };
-		D00A39DF1A1632F0007F7FAC /* RightBubbleFDDarkTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RightBubbleFDDarkTheme@2x.png"; sourceTree = "<group>"; };
-		D00A39E01A1632F0007F7FAC /* RightBubbleFDLightTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RightBubbleFDLightTheme@2x.png"; sourceTree = "<group>"; };
-		D00A39E11A1632F0007F7FAC /* TextViewInnerFDDarkTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewInnerFDDarkTheme@2x.png"; sourceTree = "<group>"; };
-		D00A39E21A1632F0007F7FAC /* TextViewInnerFDLightTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewInnerFDLightTheme@2x.png"; sourceTree = "<group>"; };
-		D00A39E31A1632F0007F7FAC /* TextViewOuterFDDarkTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewOuterFDDarkTheme@2x.png"; sourceTree = "<group>"; };
-		D00A39E41A1632F0007F7FAC /* TextViewOuterFDLightTheme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewOuterFDLightTheme@2x.png"; sourceTree = "<group>"; };
-		D00A39E61A1632F0007F7FAC /* FDAngleMask@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FDAngleMask@3x.png"; sourceTree = "<group>"; };
-		D00A39E71A1632F0007F7FAC /* FDError@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FDError@3x.png"; sourceTree = "<group>"; };
-		D00A39E81A1632F0007F7FAC /* FDSuccess@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FDSuccess@3x.png"; sourceTree = "<group>"; };
-		D00A39E91A1632F0007F7FAC /* LeftBubbleFDDarkTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LeftBubbleFDDarkTheme@3x.png"; sourceTree = "<group>"; };
-		D00A39EA1A1632F0007F7FAC /* LeftBubbleFDLightTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LeftBubbleFDLightTheme@3x.png"; sourceTree = "<group>"; };
-		D00A39EB1A1632F0007F7FAC /* RightBubbleFDDarkTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RightBubbleFDDarkTheme@3x.png"; sourceTree = "<group>"; };
-		D00A39EC1A1632F0007F7FAC /* RightBubbleFDLightTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RightBubbleFDLightTheme@3x.png"; sourceTree = "<group>"; };
-		D00A39ED1A1632F0007F7FAC /* TextViewInnerFDDarkTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewInnerFDDarkTheme@3x.png"; sourceTree = "<group>"; };
-		D00A39EE1A1632F0007F7FAC /* TextViewInnerFDLightTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewInnerFDLightTheme@3x.png"; sourceTree = "<group>"; };
-		D00A39EF1A1632F0007F7FAC /* TextViewOuterFDDarkTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewOuterFDDarkTheme@3x.png"; sourceTree = "<group>"; };
-		D00A39F01A1632F0007F7FAC /* TextViewOuterFDLightTheme@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextViewOuterFDLightTheme@3x.png"; sourceTree = "<group>"; };
-		D00A39F31A1632F0007F7FAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MHLocalizable.strings; sourceTree = "<group>"; };
-		D00A39F51A1632F0007F7FAC /* FDDarkTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FDDarkTheme.plist; sourceTree = "<group>"; };
-		D00A39F61A1632F0007F7FAC /* FDLightTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FDLightTheme.plist; sourceTree = "<group>"; };
-		D00A39F71A1632F0007F7FAC /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +121,7 @@
 			files = (
 				AD93D0BA19B4B17A00D58776 /* MobileCoreServices.framework in Frameworks */,
 				AD93D0BC19B4B18000D58776 /* CoreTelephony.framework in Frameworks */,
-				D00A39F81A1632F0007F7FAC /* libFDMobihelpSDK.a in Frameworks */,
+				3C2709931A29C907002AF334 /* libFDMobihelpSDK.a in Frameworks */,
 				AD93D0B619B4B16E00D58776 /* SystemConfiguration.framework in Frameworks */,
 				AD93D0B819B4B17200D58776 /* CoreData.framework in Frameworks */,
 				3C5A5ACF19E2C4CD005639CC /* CoreGraphics.framework in Frameworks */,
@@ -127,10 +135,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C27096A1A29C907002AF334 /* mobihelp_ios_v1.2 */ = {
+			isa = PBXGroup;
+			children = (
+				3C27096B1A29C907002AF334 /* libFDMobihelpSDK.a */,
+				3C27096C1A29C907002AF334 /* MHModel.bundle */,
+				3C27096D1A29C907002AF334 /* Mobihelp.h */,
+				3C27096E1A29C907002AF334 /* MobihelpResources */,
+				3C2709921A29C907002AF334 /* ReleaseNotes.txt */,
+			);
+			path = mobihelp_ios_v1.2;
+			sourceTree = "<group>";
+		};
+		3C27096E1A29C907002AF334 /* MobihelpResources */ = {
+			isa = PBXGroup;
+			children = (
+				3C27096F1A29C907002AF334 /* Images */,
+				3C27098C1A29C907002AF334 /* Localization */,
+				3C27098F1A29C907002AF334 /* Themes */,
+			);
+			path = MobihelpResources;
+			sourceTree = "<group>";
+		};
+		3C27096F1A29C907002AF334 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3C2709701A29C907002AF334 /* 2x */,
+				3C27097E1A29C907002AF334 /* 3x */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3C2709701A29C907002AF334 /* 2x */ = {
+			isa = PBXGroup;
+			children = (
+				3C2709711A29C907002AF334 /* AttachmentPinFDDarkTheme@2x.png */,
+				3C2709721A29C907002AF334 /* AttachmentPinFDLightTheme@2x.png */,
+				3C2709731A29C907002AF334 /* FDAngleMask@2x.png */,
+				3C2709741A29C907002AF334 /* FDError@2x.png */,
+				3C2709751A29C907002AF334 /* FDSuccess@2x.png */,
+				3C2709761A29C907002AF334 /* LeftBubbleFDDarkTheme@2x.png */,
+				3C2709771A29C907002AF334 /* LeftBubbleFDLightTheme@2x.png */,
+				3C2709781A29C907002AF334 /* RightBubbleFDDarkTheme@2x.png */,
+				3C2709791A29C907002AF334 /* RightBubbleFDLightTheme@2x.png */,
+				3C27097A1A29C907002AF334 /* TextViewInnerFDDarkTheme@2x.png */,
+				3C27097B1A29C907002AF334 /* TextViewInnerFDLightTheme@2x.png */,
+				3C27097C1A29C907002AF334 /* TextViewOuterFDDarkTheme@2x.png */,
+				3C27097D1A29C907002AF334 /* TextViewOuterFDLightTheme@2x.png */,
+			);
+			path = 2x;
+			sourceTree = "<group>";
+		};
+		3C27097E1A29C907002AF334 /* 3x */ = {
+			isa = PBXGroup;
+			children = (
+				3C27097F1A29C907002AF334 /* AttachmentPinFDDarkTheme@3x.png */,
+				3C2709801A29C907002AF334 /* AttachmentPinFDLightTheme@3x.png */,
+				3C2709811A29C907002AF334 /* FDAngleMask@3x.png */,
+				3C2709821A29C907002AF334 /* FDError@3x.png */,
+				3C2709831A29C907002AF334 /* FDSuccess@3x.png */,
+				3C2709841A29C907002AF334 /* LeftBubbleFDDarkTheme@3x.png */,
+				3C2709851A29C907002AF334 /* LeftBubbleFDLightTheme@3x.png */,
+				3C2709861A29C907002AF334 /* RightBubbleFDDarkTheme@3x.png */,
+				3C2709871A29C907002AF334 /* RightBubbleFDLightTheme@3x.png */,
+				3C2709881A29C907002AF334 /* TextViewInnerFDDarkTheme@3x.png */,
+				3C2709891A29C907002AF334 /* TextViewInnerFDLightTheme@3x.png */,
+				3C27098A1A29C907002AF334 /* TextViewOuterFDDarkTheme@3x.png */,
+				3C27098B1A29C907002AF334 /* TextViewOuterFDLightTheme@3x.png */,
+			);
+			path = 3x;
+			sourceTree = "<group>";
+		};
+		3C27098C1A29C907002AF334 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				3C27098D1A29C907002AF334 /* MHLocalizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		3C27098F1A29C907002AF334 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				3C2709901A29C907002AF334 /* FDDarkTheme.plist */,
+				3C2709911A29C907002AF334 /* FDLightTheme.plist */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
 		AD93D05719B4924A00D58776 = {
 			isa = PBXGroup;
 			children = (
-				D00A39D31A1632F0007F7FAC /* mobihelp_ios_v1.1.4 */,
+				3C27096A1A29C907002AF334 /* mobihelp_ios_v1.2 */,
 				AD93D06919B4924B00D58776 /* MobihelpSampleApp */,
 				AD93D06219B4924B00D58776 /* Frameworks */,
 				AD93D06119B4924B00D58776 /* Products */,
@@ -187,90 +283,6 @@
 				AD93D07519B4924B00D58776 /* Images.xcassets */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D00A39D31A1632F0007F7FAC /* mobihelp_ios_v1.1.4 */ = {
-			isa = PBXGroup;
-			children = (
-				D00A39D41A1632F0007F7FAC /* libFDMobihelpSDK.a */,
-				D00A39D51A1632F0007F7FAC /* MHModel.bundle */,
-				D00A39D61A1632F0007F7FAC /* Mobihelp.h */,
-				D00A39D71A1632F0007F7FAC /* MobihelpResources */,
-				D00A39F71A1632F0007F7FAC /* ReleaseNotes.txt */,
-			);
-			path = mobihelp_ios_v1.1.4;
-			sourceTree = "<group>";
-		};
-		D00A39D71A1632F0007F7FAC /* MobihelpResources */ = {
-			isa = PBXGroup;
-			children = (
-				D00A39D81A1632F0007F7FAC /* Images */,
-				D00A39F11A1632F0007F7FAC /* Localization */,
-				D00A39F41A1632F0007F7FAC /* Themes */,
-			);
-			path = MobihelpResources;
-			sourceTree = "<group>";
-		};
-		D00A39D81A1632F0007F7FAC /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				D00A39D91A1632F0007F7FAC /* 2x */,
-				D00A39E51A1632F0007F7FAC /* 3x */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
-		D00A39D91A1632F0007F7FAC /* 2x */ = {
-			isa = PBXGroup;
-			children = (
-				D00A39DA1A1632F0007F7FAC /* FDAngleMask@2x.png */,
-				D00A39DB1A1632F0007F7FAC /* FDError@2x.png */,
-				D00A39DC1A1632F0007F7FAC /* FDSuccess@2x.png */,
-				D00A39DD1A1632F0007F7FAC /* LeftBubbleFDDarkTheme@2x.png */,
-				D00A39DE1A1632F0007F7FAC /* LeftBubbleFDLightTheme@2x.png */,
-				D00A39DF1A1632F0007F7FAC /* RightBubbleFDDarkTheme@2x.png */,
-				D00A39E01A1632F0007F7FAC /* RightBubbleFDLightTheme@2x.png */,
-				D00A39E11A1632F0007F7FAC /* TextViewInnerFDDarkTheme@2x.png */,
-				D00A39E21A1632F0007F7FAC /* TextViewInnerFDLightTheme@2x.png */,
-				D00A39E31A1632F0007F7FAC /* TextViewOuterFDDarkTheme@2x.png */,
-				D00A39E41A1632F0007F7FAC /* TextViewOuterFDLightTheme@2x.png */,
-			);
-			path = 2x;
-			sourceTree = "<group>";
-		};
-		D00A39E51A1632F0007F7FAC /* 3x */ = {
-			isa = PBXGroup;
-			children = (
-				D00A39E61A1632F0007F7FAC /* FDAngleMask@3x.png */,
-				D00A39E71A1632F0007F7FAC /* FDError@3x.png */,
-				D00A39E81A1632F0007F7FAC /* FDSuccess@3x.png */,
-				D00A39E91A1632F0007F7FAC /* LeftBubbleFDDarkTheme@3x.png */,
-				D00A39EA1A1632F0007F7FAC /* LeftBubbleFDLightTheme@3x.png */,
-				D00A39EB1A1632F0007F7FAC /* RightBubbleFDDarkTheme@3x.png */,
-				D00A39EC1A1632F0007F7FAC /* RightBubbleFDLightTheme@3x.png */,
-				D00A39ED1A1632F0007F7FAC /* TextViewInnerFDDarkTheme@3x.png */,
-				D00A39EE1A1632F0007F7FAC /* TextViewInnerFDLightTheme@3x.png */,
-				D00A39EF1A1632F0007F7FAC /* TextViewOuterFDDarkTheme@3x.png */,
-				D00A39F01A1632F0007F7FAC /* TextViewOuterFDLightTheme@3x.png */,
-			);
-			path = 3x;
-			sourceTree = "<group>";
-		};
-		D00A39F11A1632F0007F7FAC /* Localization */ = {
-			isa = PBXGroup;
-			children = (
-				D00A39F21A1632F0007F7FAC /* MHLocalizable.strings */,
-			);
-			path = Localization;
-			sourceTree = "<group>";
-		};
-		D00A39F41A1632F0007F7FAC /* Themes */ = {
-			isa = PBXGroup;
-			children = (
-				D00A39F51A1632F0007F7FAC /* FDDarkTheme.plist */,
-				D00A39F61A1632F0007F7FAC /* FDLightTheme.plist */,
-			);
-			path = Themes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,35 +342,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D00A3A061A1632F0007F7FAC /* FDError@3x.png in Resources */,
-				D00A3A031A1632F0007F7FAC /* TextViewOuterFDDarkTheme@2x.png in Resources */,
-				D00A39FB1A1632F0007F7FAC /* FDError@2x.png in Resources */,
-				D00A3A0E1A1632F0007F7FAC /* TextViewOuterFDDarkTheme@3x.png in Resources */,
-				D00A3A0F1A1632F0007F7FAC /* TextViewOuterFDLightTheme@3x.png in Resources */,
-				D00A3A0B1A1632F0007F7FAC /* RightBubbleFDLightTheme@3x.png in Resources */,
-				D00A3A071A1632F0007F7FAC /* FDSuccess@3x.png in Resources */,
-				D00A3A091A1632F0007F7FAC /* LeftBubbleFDLightTheme@3x.png in Resources */,
-				D00A39FD1A1632F0007F7FAC /* LeftBubbleFDDarkTheme@2x.png in Resources */,
-				D00A3A001A1632F0007F7FAC /* RightBubbleFDLightTheme@2x.png in Resources */,
-				D00A3A0C1A1632F0007F7FAC /* TextViewInnerFDDarkTheme@3x.png in Resources */,
-				D00A39FA1A1632F0007F7FAC /* FDAngleMask@2x.png in Resources */,
-				D00A39F91A1632F0007F7FAC /* MHModel.bundle in Resources */,
-				D00A3A121A1632F0007F7FAC /* FDLightTheme.plist in Resources */,
-				D00A3A0D1A1632F0007F7FAC /* TextViewInnerFDLightTheme@3x.png in Resources */,
-				D00A3A051A1632F0007F7FAC /* FDAngleMask@3x.png in Resources */,
-				D00A39FF1A1632F0007F7FAC /* RightBubbleFDDarkTheme@2x.png in Resources */,
-				D00A3A101A1632F0007F7FAC /* MHLocalizable.strings in Resources */,
-				D00A3A111A1632F0007F7FAC /* FDDarkTheme.plist in Resources */,
-				D00A3A011A1632F0007F7FAC /* TextViewInnerFDDarkTheme@2x.png in Resources */,
-				D00A3A0A1A1632F0007F7FAC /* RightBubbleFDDarkTheme@3x.png in Resources */,
-				D00A3A041A1632F0007F7FAC /* TextViewOuterFDLightTheme@2x.png in Resources */,
-				D00A3A081A1632F0007F7FAC /* LeftBubbleFDDarkTheme@3x.png in Resources */,
+				3C2709AF1A29C907002AF334 /* MHLocalizable.strings in Resources */,
+				3C2709B11A29C907002AF334 /* FDLightTheme.plist in Resources */,
+				3C2709A51A29C907002AF334 /* FDError@3x.png in Resources */,
+				3C27099B1A29C907002AF334 /* LeftBubbleFDLightTheme@2x.png in Resources */,
+				3C2709AB1A29C907002AF334 /* TextViewInnerFDDarkTheme@3x.png in Resources */,
+				3C2709991A29C907002AF334 /* FDSuccess@2x.png in Resources */,
+				3C2709A41A29C907002AF334 /* FDAngleMask@3x.png in Resources */,
+				3C2709A11A29C907002AF334 /* TextViewOuterFDLightTheme@2x.png in Resources */,
+				3C2709941A29C907002AF334 /* MHModel.bundle in Resources */,
+				3C2709A21A29C907002AF334 /* AttachmentPinFDDarkTheme@3x.png in Resources */,
 				AD93D06E19B4924B00D58776 /* InfoPlist.strings in Resources */,
-				D00A3A021A1632F0007F7FAC /* TextViewInnerFDLightTheme@2x.png in Resources */,
-				D00A3A131A1632F0007F7FAC /* ReleaseNotes.txt in Resources */,
-				D00A39FC1A1632F0007F7FAC /* FDSuccess@2x.png in Resources */,
-				D00A39FE1A1632F0007F7FAC /* LeftBubbleFDLightTheme@2x.png in Resources */,
+				3C2709B01A29C907002AF334 /* FDDarkTheme.plist in Resources */,
+				3C2709A01A29C907002AF334 /* TextViewOuterFDDarkTheme@2x.png in Resources */,
+				3C27099A1A29C907002AF334 /* LeftBubbleFDDarkTheme@2x.png in Resources */,
+				3C2709AC1A29C907002AF334 /* TextViewInnerFDLightTheme@3x.png in Resources */,
+				3C2709A71A29C907002AF334 /* LeftBubbleFDDarkTheme@3x.png in Resources */,
+				3C2709971A29C907002AF334 /* FDAngleMask@2x.png in Resources */,
+				3C2709A91A29C907002AF334 /* RightBubbleFDDarkTheme@3x.png in Resources */,
+				3C27099E1A29C907002AF334 /* TextViewInnerFDDarkTheme@2x.png in Resources */,
+				3C2709961A29C907002AF334 /* AttachmentPinFDLightTheme@2x.png in Resources */,
+				3C27099C1A29C907002AF334 /* RightBubbleFDDarkTheme@2x.png in Resources */,
 				AD93D07619B4924B00D58776 /* Images.xcassets in Resources */,
+				3C2709AD1A29C907002AF334 /* TextViewOuterFDDarkTheme@3x.png in Resources */,
+				3C2709AA1A29C907002AF334 /* RightBubbleFDLightTheme@3x.png in Resources */,
+				3C2709A81A29C907002AF334 /* LeftBubbleFDLightTheme@3x.png in Resources */,
+				3C27099F1A29C907002AF334 /* TextViewInnerFDLightTheme@2x.png in Resources */,
+				3C2709A61A29C907002AF334 /* FDSuccess@3x.png in Resources */,
+				3C2709981A29C907002AF334 /* FDError@2x.png in Resources */,
+				3C27099D1A29C907002AF334 /* RightBubbleFDLightTheme@2x.png in Resources */,
+				3C2709A31A29C907002AF334 /* AttachmentPinFDLightTheme@3x.png in Resources */,
+				3C2709B21A29C907002AF334 /* ReleaseNotes.txt in Resources */,
+				3C2709AE1A29C907002AF334 /* TextViewOuterFDLightTheme@3x.png in Resources */,
+				3C2709951A29C907002AF334 /* AttachmentPinFDDarkTheme@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,20 +394,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		3C27098D1A29C907002AF334 /* MHLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C27098E1A29C907002AF334 /* en */,
+			);
+			name = MHLocalizable.strings;
+			sourceTree = "<group>";
+		};
 		AD93D06C19B4924B00D58776 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AD93D06D19B4924B00D58776 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D00A39F21A1632F0007F7FAC /* MHLocalizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D00A39F31A1632F0007F7FAC /* en */,
-			);
-			name = MHLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -484,6 +500,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/mobihelp_ios_v1.1.4",
+					"$(PROJECT_DIR)/mobihelp_ios_v1.2",
 				);
 				LINK_WITH_STANDARD_LIBRARIES = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -508,6 +525,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/mobihelp_ios_v1.1.4",
+					"$(PROJECT_DIR)/mobihelp_ios_v1.2",
 				);
 				LINK_WITH_STANDARD_LIBRARIES = YES;
 				ONLY_ACTIVE_ARCH = YES;
