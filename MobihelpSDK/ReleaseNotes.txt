@@ -4,10 +4,15 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+Ver 1.2.2
+__________________________
+Added CSS Theming for Articles 
+CocoaPods Support
+Images and Themes moved to Bundle 
+
 Ver 1.2.1
 __________________________
 Fix for alignment issue in Conversation View
-
 
 Ver 1.2
 __________________________

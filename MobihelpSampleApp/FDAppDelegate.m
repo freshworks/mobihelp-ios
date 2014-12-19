@@ -29,6 +29,8 @@
     
     config.enableAutoReply = YES; //Enable Auto Reply
     
+    config.appStoreId=@"id849713306"; //Just an example. This takes you to the Freshdesk iOS app's listing on the App Store.
+    
     config.launchCountForAppReviewPrompt = 10; // Show review Automatically after 10 launches.
     
     //Initialize Mobihelp. This needs to be called only once in the App.
