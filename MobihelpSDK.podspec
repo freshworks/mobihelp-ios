@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.license             = { :type => 'Commercial', :text => 'See http://www.freshdesk.com/terms' }
   s.author              = { 'Freshdesk' => 'support@freshdesk.com' }
   s.platform            = :ios, '7.0'
+  s.requires_arc	= true
   s.frameworks          = 'MobileCoreServices','CoreTelephony','SystemConfiguration','CoreData','CoreGraphics','UIKit','Foundation','Security','QuartzCore'
   s.source              = { :git => "https://github.com/freshdesk/mobihelp-ios.git", :tag => "v#{s.version}" }
   s.source_files        = 'MobihelpSDK/Mobihelp.h'
