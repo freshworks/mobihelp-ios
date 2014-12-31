@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = 'MobihelpSDK'
-  s.version             = '1.2.2'
+  s.version             = '1.3'
   s.summary             = 'In-App customer support SDK, powered by Freshdesk'
   s.homepage            = 'http://developer.freshdesk.com/mobihelp'
   s.license             = { :type => 'Commercial', :text => 'See http://www.freshdesk.com/terms' }
