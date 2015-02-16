@@ -56,6 +56,14 @@ typedef NS_ENUM(NSInteger, FEEDBACK_TYPE) {
 @property (nonatomic) BOOL enableAutoReply;
 
 /**
+ * Used to enable/disable Enhanced Privacy to filter out sensitive user information.
+ * e.g for COPPA compliance.
+ */
+
+@property (nonatomic) BOOL enableEnhancedPrivacy;
+
+
+/**
  *  Your app's AppStore ID in the format "idXXXXXXXXX", for instance id849713306.
  */
 @property (strong, nonatomic) NSString *appStoreId;
@@ -91,6 +99,7 @@ typedef NS_ENUM(NSInteger, FEEDBACK_TYPE) {
  *
  */
 - (void)setThemeName:(NSString *) themeName;
+
 
 @end
 
@@ -178,6 +187,21 @@ typedef NS_ENUM(NSInteger, FEEDBACK_TYPE) {
 -(void)addCustomDataForKey:(NSString *)key withValue:(NSString *)value;
 
 /**
+ *  Add new custom data in key-value format.
+ *
+ *  @discussion This method lets you collect useful data inside your app. This can be any Key Value information.
+ *
+ *  @param key   The custom data's key.
+ *
+ *  @param value The custom data's value.
+ *
+ *  @param isSensitive The Custom data's nature of sensitivity.
+ *
+ */
+
+- (void)addCustomDataForKey:(NSString *)key withValue:(NSString *)value andSensitivity:(BOOL)isSensitive;
+
+/**
  *  App rating/review alert.
  *
  *  @discussion This method lets you throw an alert to the user, asking the user to rate/review your app on the App Store.
@@ -207,5 +231,15 @@ typedef NS_ENUM(NSInteger, FEEDBACK_TYPE) {
  *  @discussion Can be used to clear user data when the user logs out of your app.
  */
 -(void)clearUserData;
+
+/**
+ *  Clear all breadcrumbs
+ */
+-(void)clearBreadcrumbs;
+
+/**
+ *  Clear all custom data
+ */
+-(void)clearCustomData;
 
 @end

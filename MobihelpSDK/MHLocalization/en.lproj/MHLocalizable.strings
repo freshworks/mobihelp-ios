@@ -37,7 +37,7 @@
 "Dismiss Alert Button Text"="Dismiss";
 
 /* Ticket List */
-"No Tickets Message"="Send us your first feedback by tapping the \"Contact Us\" button above!";
+"No Tickets Message"="No conversations found";
 
 /* Ticket Conversation */
 "Conversation Nav Bar Title Text" = "Conversation";

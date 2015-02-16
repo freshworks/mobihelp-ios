@@ -4,6 +4,13 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+Ver 1.3.3
+__________________________
+Enhanced privacy mode for COPPA compliance
+APIs for clearing Breadcrumbs and Custom data
+Solutions open In-App now
+Added Font Theming options
+
 Ver 1.3.2
 __________________________
 Fixed rare network timeout issue
