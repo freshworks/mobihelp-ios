@@ -45,6 +45,7 @@ typedef NS_ENUM(NSInteger, FEEDBACK_TYPE) {
  */
 @property (nonatomic) BOOL prefetchSolutions;
 
+
 /**
  *  Used to set the feedback type that specifies the amount of user information to be collected like name and email.
  */
@@ -143,6 +144,16 @@ typedef NS_ENUM(NSInteger, FEEDBACK_TYPE) {
  *
  */
 -(void)presentSupport:(UIViewController *) parentViewController;
+
+/**
+ *  Present only solutions to the user ( Contact Us is disabled )
+ *
+ *  @discussion This method lets you present the solutions / FAQ.
+ *
+ *  @param parentViewController This is essentially the view controller from where you're attempting to present the solutions.
+ *
+ */
+-(void)presentSolutions:(UIViewController *) parentViewController;
 
 /**
  *  Present the feedback view.

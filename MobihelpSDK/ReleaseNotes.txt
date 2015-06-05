@@ -4,6 +4,17 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+Ver 1.4
+__________________________
+Attachment support on Initial Ticket Feedback
+Ability to set ticket to resolved, to allow customer to close ticket
+Disable Feedback/Conversations ( Useful to show only solutions in the app )
+Other Minor Improvements
+
+Ver 1.3.4
+__________________________
+Fix issue with section header on new accounts
+
 Ver 1.3.3
 __________________________
 Enhanced privacy mode for COPPA compliance

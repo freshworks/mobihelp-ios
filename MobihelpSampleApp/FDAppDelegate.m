@@ -19,6 +19,8 @@
     [[Mobihelp sharedInstance]leaveBreadcrumb: @"Upgraded Fort"];
     
     [self rootControllerSetup];
+    
+    [self registerUserNotificationSettings];
     return YES;
 }
 
@@ -45,6 +47,15 @@
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
     self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
+}
+
+-(void)registerUserNotificationSettings{
+    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"8.0")) {
+        [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeSound | UIUserNotificationTypeAlert | UIUserNotificationTypeBadge) categories:nil]];
+    }else{
+        UIRemoteNotificationType types = UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeSound;
+        [[UIApplication sharedApplication] registerForRemoteNotificationTypes:types];
+    }
 }
 
 @end
