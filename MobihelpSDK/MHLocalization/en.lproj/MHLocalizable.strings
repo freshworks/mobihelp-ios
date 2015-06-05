@@ -33,8 +33,13 @@
 "Email Required Alert Message Text"="Please enter your email address";
 "Ticket Body Empty Alert Message Text"="Feedback is empty";
 "Invalid Email Alert Message Text"="Please verify your email address";
-"Ticket Body Placeholder"="";
 "Dismiss Alert Button Text"="Dismiss";
+"Attachment Options Text" = "Attachment Options";
+"Use Last Taken Photo Text" = "Use Last Taken Photo";
+"Open Photo Gallery Text" = "Open Photo Gallery";
+"Attachment Cancel Button Text" = "Cancel";
+"Attachment Remove Button" = "Remove";
+
 
 /* Ticket List */
 "No Tickets Message"="No conversations found";
@@ -52,6 +57,13 @@
 "Review Label Text"="Would you like to review the app?";
 "Review Button Text"="Review";
 "Attachment success Alert Text"="Attachment sent";
+
+/* Closed Ticket Scenario */
+"conversation ended"="This conversation has ended";
+"Start a new conversation" = "Start a new conversation";
+"Did we help solve your issue" = "Did we help solve your issue ?";
+"NO" = "NO";
+"YES" = "YES";
 
 /* Attachments View */
 "Attachment View Nav Bar Title Text"="Attachment";

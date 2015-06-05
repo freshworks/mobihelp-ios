@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35BE8AC01B21BC48009009DE /* libFDMobihelpSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BE8AB81B21BC48009009DE /* libFDMobihelpSDK.a */; };
+		35BE8AC11B21BC48009009DE /* MHLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35BE8ABA1B21BC48009009DE /* MHLocalizable.strings */; };
+		35BE8AC21B21BC48009009DE /* MHModel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 35BE8ABC1B21BC48009009DE /* MHModel.bundle */; };
+		35BE8AC31B21BC48009009DE /* MHResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 35BE8ABD1B21BC48009009DE /* MHResources.bundle */; };
+		35BE8AC41B21BC48009009DE /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 35BE8ABF1B21BC48009009DE /* ReleaseNotes.txt */; };
+		35BE8AC61B21BC77009009DE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BE8AC51B21BC77009009DE /* AVFoundation.framework */; };
 		3C5A5ACB19E2C47F005639CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D06719B4924B00D58776 /* UIKit.framework */; };
 		3C5A5ACE19E2C4B3005639CC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5A5ACD19E2C4B3005639CC /* Security.framework */; };
 		3C5A5ACF19E2C4CD005639CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D06519B4924B00D58776 /* CoreGraphics.framework */; };
@@ -21,14 +27,16 @@
 		AD93D0B819B4B17200D58776 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D0B719B4B17200D58776 /* CoreData.framework */; };
 		AD93D0BA19B4B17A00D58776 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D0B919B4B17A00D58776 /* MobileCoreServices.framework */; };
 		AD93D0BC19B4B18000D58776 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D0BB19B4B18000D58776 /* CoreTelephony.framework */; };
-		D0E4F39F1A54265400E4AE5B /* libFDMobihelpSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E4F3971A54265400E4AE5B /* libFDMobihelpSDK.a */; };
-		D0E4F3A01A54265400E4AE5B /* MHLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0E4F3991A54265400E4AE5B /* MHLocalizable.strings */; };
-		D0E4F3A11A54265400E4AE5B /* MHModel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D0E4F39B1A54265400E4AE5B /* MHModel.bundle */; };
-		D0E4F3A21A54265400E4AE5B /* MHResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D0E4F39C1A54265400E4AE5B /* MHResources.bundle */; };
-		D0E4F3A31A54265400E4AE5B /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0E4F39E1A54265400E4AE5B /* ReleaseNotes.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35BE8AB81B21BC48009009DE /* libFDMobihelpSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFDMobihelpSDK.a; sourceTree = "<group>"; };
+		35BE8ABB1B21BC48009009DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MHLocalizable.strings; sourceTree = "<group>"; };
+		35BE8ABC1B21BC48009009DE /* MHModel.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MHModel.bundle; sourceTree = "<group>"; };
+		35BE8ABD1B21BC48009009DE /* MHResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MHResources.bundle; sourceTree = "<group>"; };
+		35BE8ABE1B21BC48009009DE /* Mobihelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mobihelp.h; sourceTree = "<group>"; };
+		35BE8ABF1B21BC48009009DE /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
+		35BE8AC51B21BC77009009DE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3C5A5AC119E2C359005639CC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		3C5A5AC419E2C415005639CC /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		3C5A5AC719E2C44D005639CC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
@@ -52,12 +60,6 @@
 		AD93D0B719B4B17200D58776 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AD93D0B919B4B17A00D58776 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		AD93D0BB19B4B18000D58776 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		D0E4F3971A54265400E4AE5B /* libFDMobihelpSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFDMobihelpSDK.a; sourceTree = "<group>"; };
-		D0E4F39A1A54265400E4AE5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MHLocalizable.strings; sourceTree = "<group>"; };
-		D0E4F39B1A54265400E4AE5B /* MHModel.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MHModel.bundle; sourceTree = "<group>"; };
-		D0E4F39C1A54265400E4AE5B /* MHResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MHResources.bundle; sourceTree = "<group>"; };
-		D0E4F39D1A54265400E4AE5B /* Mobihelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mobihelp.h; sourceTree = "<group>"; };
-		D0E4F39E1A54265400E4AE5B /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +67,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35BE8AC61B21BC77009009DE /* AVFoundation.framework in Frameworks */,
 				AD93D0BA19B4B17A00D58776 /* MobileCoreServices.framework in Frameworks */,
 				AD93D0BC19B4B18000D58776 /* CoreTelephony.framework in Frameworks */,
-				D0E4F39F1A54265400E4AE5B /* libFDMobihelpSDK.a in Frameworks */,
+				35BE8AC01B21BC48009009DE /* libFDMobihelpSDK.a in Frameworks */,
 				AD93D0B619B4B16E00D58776 /* SystemConfiguration.framework in Frameworks */,
 				AD93D0B819B4B17200D58776 /* CoreData.framework in Frameworks */,
 				3C5A5ACF19E2C4CD005639CC /* CoreGraphics.framework in Frameworks */,
@@ -81,10 +84,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35BE8AB71B21BC48009009DE /* MobihelpSDK */ = {
+			isa = PBXGroup;
+			children = (
+				35BE8AB81B21BC48009009DE /* libFDMobihelpSDK.a */,
+				35BE8AB91B21BC48009009DE /* MHLocalization */,
+				35BE8ABC1B21BC48009009DE /* MHModel.bundle */,
+				35BE8ABD1B21BC48009009DE /* MHResources.bundle */,
+				35BE8ABE1B21BC48009009DE /* Mobihelp.h */,
+				35BE8ABF1B21BC48009009DE /* ReleaseNotes.txt */,
+			);
+			path = MobihelpSDK;
+			sourceTree = "<group>";
+		};
+		35BE8AB91B21BC48009009DE /* MHLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				35BE8ABA1B21BC48009009DE /* MHLocalizable.strings */,
+			);
+			path = MHLocalization;
+			sourceTree = "<group>";
+		};
 		AD93D05719B4924A00D58776 = {
 			isa = PBXGroup;
 			children = (
-				D0E4F3961A54265400E4AE5B /* MobihelpSDK */,
+				35BE8AB71B21BC48009009DE /* MobihelpSDK */,
 				AD93D06919B4924B00D58776 /* MobihelpSampleApp */,
 				AD93D06219B4924B00D58776 /* Frameworks */,
 				AD93D06119B4924B00D58776 /* Products */,
@@ -102,6 +126,7 @@
 		AD93D06219B4924B00D58776 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35BE8AC51B21BC77009009DE /* AVFoundation.framework */,
 				3C5A5ACD19E2C4B3005639CC /* Security.framework */,
 				3C5A5AC919E2C468005639CC /* QuartzCore.framework */,
 				3C5A5AC719E2C44D005639CC /* CoreText.framework */,
@@ -143,27 +168,6 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D0E4F3961A54265400E4AE5B /* MobihelpSDK */ = {
-			isa = PBXGroup;
-			children = (
-				D0E4F3971A54265400E4AE5B /* libFDMobihelpSDK.a */,
-				D0E4F3981A54265400E4AE5B /* MHLocalization */,
-				D0E4F39B1A54265400E4AE5B /* MHModel.bundle */,
-				D0E4F39C1A54265400E4AE5B /* MHResources.bundle */,
-				D0E4F39D1A54265400E4AE5B /* Mobihelp.h */,
-				D0E4F39E1A54265400E4AE5B /* ReleaseNotes.txt */,
-			);
-			path = MobihelpSDK;
-			sourceTree = "<group>";
-		};
-		D0E4F3981A54265400E4AE5B /* MHLocalization */ = {
-			isa = PBXGroup;
-			children = (
-				D0E4F3991A54265400E4AE5B /* MHLocalizable.strings */,
-			);
-			path = MHLocalization;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,11 +197,6 @@
 				CLASSPREFIX = FD;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Freshdesk;
-				TargetAttributes = {
-					AD93D05F19B4924B00D58776 = {
-						DevelopmentTeam = 27B8XD9WQS;
-					};
-				};
 			};
 			buildConfigurationList = AD93D05B19B4924A00D58776 /* Build configuration list for PBXProject "MobihelpSampleApp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -221,11 +220,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0E4F3A31A54265400E4AE5B /* ReleaseNotes.txt in Resources */,
-				D0E4F3A11A54265400E4AE5B /* MHModel.bundle in Resources */,
-				D0E4F3A01A54265400E4AE5B /* MHLocalizable.strings in Resources */,
+				35BE8AC41B21BC48009009DE /* ReleaseNotes.txt in Resources */,
+				35BE8AC21B21BC48009009DE /* MHModel.bundle in Resources */,
+				35BE8AC11B21BC48009009DE /* MHLocalizable.strings in Resources */,
 				AD93D06E19B4924B00D58776 /* InfoPlist.strings in Resources */,
-				D0E4F3A21A54265400E4AE5B /* MHResources.bundle in Resources */,
+				35BE8AC31B21BC48009009DE /* MHResources.bundle in Resources */,
 				AD93D07619B4924B00D58776 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,20 +245,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		35BE8ABA1B21BC48009009DE /* MHLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35BE8ABB1B21BC48009009DE /* en */,
+			);
+			name = MHLocalizable.strings;
+			sourceTree = "<group>";
+		};
 		AD93D06C19B4924B00D58776 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AD93D06D19B4924B00D58776 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D0E4F3991A54265400E4AE5B /* MHLocalizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0E4F39A1A54265400E4AE5B /* en */,
-			);
-			name = MHLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
