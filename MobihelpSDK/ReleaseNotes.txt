@@ -4,6 +4,10 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+Ver 1.4.1
+__________________________
+Fixed UIAppearance proxy overriding search bar theme
+
 Ver 1.4
 __________________________
 Attachment support on Initial Ticket Feedback
