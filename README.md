@@ -13,5 +13,3 @@ Mobihelp SDK lets you provide in-app support to your mobile app users.
 ####[Integration Guide](http://developer.freshdesk.com/mobihelp/ios/integration_guide)
 
 ####[API Reference](http://developer.freshdesk.com/mobihelp/ios/api)
-
-![In App Support - Mobihelp](https://s3.amazonaws.com/assets.mobihelp.freshpo.com/images/iphone5s.png)
