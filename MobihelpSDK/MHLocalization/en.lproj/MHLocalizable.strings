@@ -20,6 +20,9 @@
 /* Search Results list */
 "Talk To Us Button Text" = "Talk to us";
 
+/*Tags Results List*/
+"Show All Solutions Button Text"="Show All Solutions";
+
 /* New Ticket */
 "Back Button Text"="Close";
 "Submit Button Text"="Submit";
@@ -74,11 +77,13 @@
 
 /* Solutions List */
 "Solutions Nav Bar Title Text"="Solutions";
+"Solutions Nav Bar Back Button Text"="Back";
 "No Solutions Text"="No Solutions Found";
 "Solutions Fetch Failed Text"="Fetching Solutions failed";
 
 /* Solution Detail */
 "Solutions Detail Nav Bar Title Text"="Solution Article";
+"Solutions Detail Nav Bar Back Button Text"="Back";
 "No Solutions Text"="No Article Found";
 "Solutions Fetch Failed Text"="Fetching Solution Article failed";
 
@@ -95,7 +100,7 @@
 /* Ratings Alert */
 "Rating Alert Title"="Rate our App";
 "Rating Alert Message"="Got a couple of minutes to rate us on the App Store?";
-"Yes"="Yes";
+"Rate Me"="Rate Me";
 "Not Now"="Not Now";
 "No"="No";
 "Send Feedback Button Text"="Send Feedback";

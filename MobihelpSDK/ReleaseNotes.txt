@@ -4,6 +4,13 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+Ver 1.5 
+__________________________
+Faster Search with Ranking 
+Show specific filtered solutions using Tags
+Theme files changed from binary to XML text
+Performance improvements
+
 Ver 1.4.2
 __________________________
 Fixed Issue with Audio Playback session
