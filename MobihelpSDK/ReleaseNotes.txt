@@ -4,6 +4,10 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+Ver 1.5.2
+__________________________
+iPad UI enhancements
+
 Ver 1.5.1
 __________________________
 Fixed missing characters in Article title
