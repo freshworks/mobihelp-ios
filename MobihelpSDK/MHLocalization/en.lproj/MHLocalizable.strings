@@ -62,11 +62,18 @@
 "Attachment success Alert Text"="Attachment sent";
 
 /* Closed Ticket Scenario */
-"conversation ended"="This conversation has ended";
-"Start a new conversation" = "Start a new conversation";
-"Did we help solve your issue" = "Did we help solve your issue ?";
-"NO" = "NO";
-"YES" = "YES";
+"Closed Prompt Label Text"="This conversation has ended";
+"Closed Prompt Button" = "Start a new conversation";
+
+/* Article UpVote DownVote */
+"Article Vote Prompt Label Text"="Was this helpful?";
+"Article Vote Prompt Yes"="YES";
+"Article Vote Prompt No"="NO";
+
+/* Resolved Ticket Scenario */
+"Resolved Prompt Label Text" = "Did we help solve your issue ?";
+"Resolved Prompt Yes"="YES";
+"Resolved Prompt No"="NO";
 
 /* Attachments View */
 "Attachment View Nav Bar Title Text"="Attachment";

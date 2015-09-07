@@ -5,23 +5,27 @@
 	<key>ConversationsUI</key>
 	<dict>
 		<key>ChatBubbleFontName</key>
-		<string>HelveticaNeue</string>
+		<string>SYS_DEFAULT_FONT_NAME</string>
 		<key>ChatBubbleFontSize</key>
-		<string>14.0f</string>
+		<string>DEFAULT_FONT_SIZE</string>
 		<key>HyperlinkColor</key>
 		<string>2701A0</string>
 		<key>InputTextFontColor</key>
 		<string>000000</string>
 		<key>LastUpdatedTimeColor</key>
 		<string>9D9D9D</string>
+		<key>LastUpdatedTimeFontName</key>
+		<string>SYS_DEFAULT_FONT_NAME</string>
+		<key>LastUpdatedTimeFontSize</key>
+		<string>DEFAULT_FONT_SIZE</string>
 		<key>RateOnAppStoreButtonTintColor</key>
 		<string>0079FF</string>
 		<key>RateOnAppStoreLabelColor</key>
 		<string>000000</string>
 		<key>RateOnAppStoreLabelFontName</key>
-		<string>HelveticaNeue</string>
+		<string>SYS_DEFAULT_FONT_NAME</string>
 		<key>RateOnAppStoreLabelFontSize</key>
-		<string>12.0f</string>
+		<string>DEFAULT_FONT_SIZE</string>
 		<key>ReceivedMessageFontColor</key>
 		<string>4E4E4E</string>
 		<key>SendButtonColor</key>
@@ -34,26 +38,26 @@
 		<key>ButtonFontColor</key>
 		<string>007AFF</string>
 		<key>ButtonFontName</key>
-		<string>HelveticaNeue</string>
+		<string>SYS_DEFAULT_FONT_NAME</string>
 		<key>ButtonFontSize</key>
-		<string>18</string>
+		<string>DEFAULT_FONT_SIZE</string>
 		<key>DialogueBackgroundColor</key>
 		<string>FFFFFF</string>
 		<key>DialogueLabelFontColor</key>
 		<string>000000</string>
 		<key>DialogueLabelFontName</key>
-		<string>HelveticaNeue</string>
+		<string>SYS_DEFAULT_FONT_NAME</string>
 		<key>DialogueLabelFontSize</key>
-		<string>20</string>
+		<string>DEFAULT_FONT_SIZE</string>
 	</dict>
 	<key>FeedbackView</key>
 	<dict>
 		<key>FontColor</key>
 		<string>000000</string>
 		<key>FontName</key>
-		<string>HelveticaNeue</string>
+		<string>SYS_DEFAULT_FONT_NAME</string>
 		<key>FontSize</key>
-		<string>15.0f</string>
+		<string>DEFAULT_FONT_SIZE</string>
 		<key>TicketBodyBackgroundColor</key>
 		<string>EFEFF4</string>
 		<key>TicketBodyPlaceholderColor</key>
@@ -70,9 +74,9 @@
 		<key>FontColor</key>
 		<string>222222</string>
 		<key>FontName</key>
-		<string>HelveticaNeue</string>
+		<string>SYS_DEFAULT_FONT_NAME</string>
 		<key>FontSize</key>
-		<string>15.0f</string>
+		<string>DEFAULT_FONT_SIZE</string>
 	</dict>
 	<key>NavigationBar</key>
 	<dict>
@@ -81,15 +85,15 @@
 		<key>ButtonColor</key>
 		<string>0079FF</string>
 		<key>ButtonFontName</key>
-		<string>HelveticaNeue</string>
+		<string>SYS_DEFAULT_FONT_NAME</string>
 		<key>ButtonFontSize</key>
-		<string>16.0f</string>
+		<string>DEFAULT_FONT_SIZE</string>
 		<key>TitleColor</key>
 		<string>000000</string>
 		<key>TitleFontName</key>
-		<string>HelveticaNeue</string>
+		<string>SYS_DEFAULT_FONT_NAME</string>
 		<key>TitleFontSize</key>
-		<string>18.0f</string>
+		<string>DEFAULT_FONT_SIZE</string>
 	</dict>
 	<key>OverallSettings</key>
 	<dict>
@@ -102,7 +106,7 @@
 		<key>TalkToUsButtonFontName</key>
 		<string>Helvetica</string>
 		<key>TalkToUsButtonFontSize</key>
-		<string>18.0f</string>
+		<string>DEFAULT_FONT_SIZE</string>
 		<key>UnreadBadgeColor</key>
 		<string>DE2021</string>
 		<key>UnreadBadgeTitleColor</key>
@@ -115,13 +119,13 @@
 		<key>CancelButtonFontName</key>
 		<string>Helvetica</string>
 		<key>CancelButtonFontSize</key>
-		<string>14.0f</string>
+		<string>DEFAULT_FONT_SIZE</string>
 		<key>FontColor</key>
 		<string>000000</string>
 		<key>FontName</key>
-		<string>HelveticaNeue</string>
+		<string>SYS_DEFAULT_FONT_NAME</string>
 		<key>FontSize</key>
-		<string>13.0f</string>
+		<string>DEFAULT_FONT_SIZE</string>
 		<key>InnerBackgroundColor</key>
 		<string>FFFFFF</string>
 		<key>OuterBackgroundColor</key>
@@ -131,32 +135,59 @@
 	</dict>
 	<key>TableView</key>
 	<dict>
+		<key>FontName</key>
+		<string>SYS_DEFAULT_FONT_NAME</string>
+		<key>FontSize</key>
+		<string>DEFAULT_FONT_SIZE</string>
+		<key>FontColor</key>
+		<string>222222</string>
 		<key>CellBackgroundColor</key>
 		<string>FFFFFF</string>
 		<key>CellSeparatorColor</key>
 		<string>C8C8C8</string>
-		<key>FontColor</key>
-		<string>222222</string>
-		<key>FontName</key>
-		<string>HelveticaNeue</string>
-		<key>FontSize</key>
-		<string>15.0f</string>
 		<key>SectionHeaderBackgroundColor</key>
 		<string>EFEFF4</string>
 		<key>SectionHeaderFontColor</key>
 		<string>676767</string>
 		<key>SectionHeaderFontName</key>
-		<string>HelveticaNeue</string>
+		<string>SYS_DEFAULT_FONT_NAME</string>
 		<key>SectionHeaderHeight</key>
 		<string>20.0f</string>
 		<key>SectionHeaderTitleColor</key>
 		<string>222222</string>
-		<key>SectionHeaderTitleFont</key>
-		<string>HelveticaNeue</string>
+		<key>SectionHeaderTitleFontName</key>
+		<string>SYS_DEFAULT_FONT_NAME</string>
 		<key>SectionHeaderTitleFontSize</key>
-		<string>13.0f</string>
+		<string>DEFAULT_FONT_SIZE</string>
 		<key>TimeDetailTextColor</key>
 		<string>D3D3D3</string>
+		<key>TimeDetailFontName</key>
+		<string>SYS_DEFAULT_FONT_NAME</string>
+		<key>TimeDetailFontSize</key>
+		<string>DEFAULT_FONT_SIZE</string>
+	</dict>
+	<key>Images</key>
+	<dict>
+		<key>Success</key>
+		<string>MHResources.bundle/Images/FDSuccess</string>
+		<key>Error</key>
+		<string>MHResources.bundle/Images/FDError</string>
+		<key>AngleMask</key>
+		<string>MHResources.bundle/Images/FDAngleMask</string>
+		<key>RightBubble</key>
+		<string>MHResources.bundle/Images/RightBubble</string>
+		<key>LeftBubble</key>
+		<string>MHResources.bundle/Images/LeftBubble</string>
+		<key>ComposeButton</key>
+		<string>MHResources.bundle/Images/ComposeButton</string>
+		<key>SearchButton</key>
+		<string>MHResources.bundle/Images/SearchButton</string>
+		<key>AttachmentPin</key>
+		<string>MHResources.bundle/Images/AttachmentPin</string>
+		<key>TextViewInner</key>
+		<string>MHResources.bundle/Images/TextViewInner</string>
+		<key>TextViewOuter</key>
+		<string>MHResources.bundle/Images/TextViewOuter</string>
 	</dict>
 </dict>
 </plist>

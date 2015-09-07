@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3555CBC81B3FC2FC0022287D /* libFDMobihelpSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3555CBC01B3FC2FC0022287D /* libFDMobihelpSDK.a */; };
-		3555CBC91B3FC2FC0022287D /* MHLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3555CBC21B3FC2FC0022287D /* MHLocalizable.strings */; };
-		3555CBCA1B3FC2FC0022287D /* MHModel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3555CBC41B3FC2FC0022287D /* MHModel.bundle */; };
-		3555CBCB1B3FC2FC0022287D /* MHResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3555CBC51B3FC2FC0022287D /* MHResources.bundle */; };
-		3555CBCC1B3FC2FC0022287D /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3555CBC71B3FC2FC0022287D /* ReleaseNotes.txt */; };
+		351CBABF1B9D86420024AD9C /* libFDMobihelpSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 351CBAB71B9D86420024AD9C /* libFDMobihelpSDK.a */; };
+		351CBAC01B9D86420024AD9C /* MHLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 351CBAB91B9D86420024AD9C /* MHLocalizable.strings */; };
+		351CBAC11B9D86420024AD9C /* MHModel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 351CBABB1B9D86420024AD9C /* MHModel.bundle */; };
+		351CBAC21B9D86420024AD9C /* MHResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 351CBABC1B9D86420024AD9C /* MHResources.bundle */; };
+		351CBAC31B9D86420024AD9C /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 351CBABE1B9D86420024AD9C /* ReleaseNotes.txt */; };
 		35BE8AC61B21BC77009009DE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BE8AC51B21BC77009009DE /* AVFoundation.framework */; };
 		3C5A5ACB19E2C47F005639CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D06719B4924B00D58776 /* UIKit.framework */; };
 		3C5A5ACE19E2C4B3005639CC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5A5ACD19E2C4B3005639CC /* Security.framework */; };
@@ -30,12 +30,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3555CBC01B3FC2FC0022287D /* libFDMobihelpSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFDMobihelpSDK.a; sourceTree = "<group>"; };
-		3555CBC31B3FC2FC0022287D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MHLocalizable.strings; sourceTree = "<group>"; };
-		3555CBC41B3FC2FC0022287D /* MHModel.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MHModel.bundle; sourceTree = "<group>"; };
-		3555CBC51B3FC2FC0022287D /* MHResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MHResources.bundle; sourceTree = "<group>"; };
-		3555CBC61B3FC2FC0022287D /* Mobihelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mobihelp.h; sourceTree = "<group>"; };
-		3555CBC71B3FC2FC0022287D /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
+		351CBAB71B9D86420024AD9C /* libFDMobihelpSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFDMobihelpSDK.a; sourceTree = "<group>"; };
+		351CBABA1B9D86420024AD9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MHLocalizable.strings; sourceTree = "<group>"; };
+		351CBABB1B9D86420024AD9C /* MHModel.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MHModel.bundle; sourceTree = "<group>"; };
+		351CBABC1B9D86420024AD9C /* MHResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MHResources.bundle; sourceTree = "<group>"; };
+		351CBABD1B9D86420024AD9C /* Mobihelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mobihelp.h; sourceTree = "<group>"; };
+		351CBABE1B9D86420024AD9C /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
 		35BE8AC51B21BC77009009DE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3C5A5AC119E2C359005639CC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		3C5A5AC419E2C415005639CC /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3555CBC81B3FC2FC0022287D /* libFDMobihelpSDK.a in Frameworks */,
+				351CBABF1B9D86420024AD9C /* libFDMobihelpSDK.a in Frameworks */,
 				35BE8AC61B21BC77009009DE /* AVFoundation.framework in Frameworks */,
 				AD93D0BA19B4B17A00D58776 /* MobileCoreServices.framework in Frameworks */,
 				AD93D0BC19B4B18000D58776 /* CoreTelephony.framework in Frameworks */,
@@ -84,23 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3555CBBF1B3FC2FC0022287D /* MobihelpSDK */ = {
+		351CBAB61B9D86420024AD9C /* MobihelpSDK */ = {
 			isa = PBXGroup;
 			children = (
-				3555CBC01B3FC2FC0022287D /* libFDMobihelpSDK.a */,
-				3555CBC11B3FC2FC0022287D /* MHLocalization */,
-				3555CBC41B3FC2FC0022287D /* MHModel.bundle */,
-				3555CBC51B3FC2FC0022287D /* MHResources.bundle */,
-				3555CBC61B3FC2FC0022287D /* Mobihelp.h */,
-				3555CBC71B3FC2FC0022287D /* ReleaseNotes.txt */,
+				351CBAB71B9D86420024AD9C /* libFDMobihelpSDK.a */,
+				351CBAB81B9D86420024AD9C /* MHLocalization */,
+				351CBABB1B9D86420024AD9C /* MHModel.bundle */,
+				351CBABC1B9D86420024AD9C /* MHResources.bundle */,
+				351CBABD1B9D86420024AD9C /* Mobihelp.h */,
+				351CBABE1B9D86420024AD9C /* ReleaseNotes.txt */,
 			);
 			path = MobihelpSDK;
 			sourceTree = "<group>";
 		};
-		3555CBC11B3FC2FC0022287D /* MHLocalization */ = {
+		351CBAB81B9D86420024AD9C /* MHLocalization */ = {
 			isa = PBXGroup;
 			children = (
-				3555CBC21B3FC2FC0022287D /* MHLocalizable.strings */,
+				351CBAB91B9D86420024AD9C /* MHLocalizable.strings */,
 			);
 			path = MHLocalization;
 			sourceTree = "<group>";
@@ -108,7 +108,7 @@
 		AD93D05719B4924A00D58776 = {
 			isa = PBXGroup;
 			children = (
-				3555CBBF1B3FC2FC0022287D /* MobihelpSDK */,
+				351CBAB61B9D86420024AD9C /* MobihelpSDK */,
 				AD93D06919B4924B00D58776 /* MobihelpSampleApp */,
 				AD93D06219B4924B00D58776 /* Frameworks */,
 				AD93D06119B4924B00D58776 /* Products */,
@@ -220,11 +220,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3555CBCC1B3FC2FC0022287D /* ReleaseNotes.txt in Resources */,
-				3555CBCA1B3FC2FC0022287D /* MHModel.bundle in Resources */,
-				3555CBC91B3FC2FC0022287D /* MHLocalizable.strings in Resources */,
+				351CBAC31B9D86420024AD9C /* ReleaseNotes.txt in Resources */,
+				351CBAC11B9D86420024AD9C /* MHModel.bundle in Resources */,
+				351CBAC01B9D86420024AD9C /* MHLocalizable.strings in Resources */,
 				AD93D06E19B4924B00D58776 /* InfoPlist.strings in Resources */,
-				3555CBCB1B3FC2FC0022287D /* MHResources.bundle in Resources */,
+				351CBAC21B9D86420024AD9C /* MHResources.bundle in Resources */,
 				AD93D07619B4924B00D58776 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,10 +245,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3555CBC21B3FC2FC0022287D /* MHLocalizable.strings */ = {
+		351CBAB91B9D86420024AD9C /* MHLocalizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3555CBC31B3FC2FC0022287D /* en */,
+				351CBABA1B9D86420024AD9C /* en */,
 			);
 			name = MHLocalizable.strings;
 			sourceTree = "<group>";

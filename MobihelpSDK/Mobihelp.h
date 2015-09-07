@@ -36,11 +36,6 @@ typedef NS_ENUM(NSInteger, FEEDBACK_TYPE) {
 @property (strong, nonatomic) NSString *domain;
 
 /**
- * Used to enable/disable SSL. SSL is ON by default.
- */
-@property (nonatomic) BOOL enableSSL;
-
-/**
  *  Used to specify whether solutions should be prefetched. This can be set to NO if solution articles are not being used. Default value is YES.
  */
 @property (nonatomic) BOOL prefetchSolutions;

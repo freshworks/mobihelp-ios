@@ -4,6 +4,20 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+
+Ver 1.6
+__________________________
+Improved Theming 
+  - Images moved to theme file 
+  - Ability to use default system font 
+  - Support for dynamic Text ( if default system font is used ) 
+iOS 9 Compatibility 
+  - Fixed Errors on iOS9 and Xcode 7 ( Beta ) 
+  - Support for iOS9 Font 
+  - SSL enforced for API Calls
+Article Upvote and Downvote Feature 
+Default DarkTheme Removed
+
 Ver 1.5.2
 __________________________
 iPad UI enhancements
