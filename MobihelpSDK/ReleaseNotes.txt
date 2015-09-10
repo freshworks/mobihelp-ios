@@ -4,6 +4,9 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+Ver 1.6.1
+__________________________
+Fixed Crash on Solutions on certain accounts
 
 Ver 1.6
 __________________________
