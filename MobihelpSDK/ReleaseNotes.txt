@@ -4,6 +4,10 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+Ver 1.6.4 
+--------------------------
+Fix issue with Conversation on iOS8
+
 Ver 1.6.3 
 --------------------------
 Option to enable/diable Modal View on iPads
