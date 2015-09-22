@@ -17,6 +17,7 @@
 		3C5A5ACE19E2C4B3005639CC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5A5ACD19E2C4B3005639CC /* Security.framework */; };
 		3C5A5ACF19E2C4CD005639CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D06519B4924B00D58776 /* CoreGraphics.framework */; };
 		3C5A5AD019E2C569005639CC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5A5AC919E2C468005639CC /* QuartzCore.framework */; };
+		3C90BFCB1BA8019500DD0453 /* FDLightTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C90BFCA1BA8019500DD0453 /* FDLightTheme.plist */; settings = {ASSET_TAGS = (); }; };
 		AD93D06419B4924B00D58776 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD93D06319B4924B00D58776 /* Foundation.framework */; };
 		AD93D06E19B4924B00D58776 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD93D06C19B4924B00D58776 /* InfoPlist.strings */; };
 		AD93D07019B4924B00D58776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD93D06F19B4924B00D58776 /* main.m */; };
@@ -42,6 +43,7 @@
 		3C5A5AC719E2C44D005639CC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		3C5A5AC919E2C468005639CC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3C5A5ACD19E2C4B3005639CC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3C90BFCA1BA8019500DD0453 /* FDLightTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FDLightTheme.plist; sourceTree = "<group>"; };
 		AD93D06019B4924B00D58776 /* MobihelpSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobihelpSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD93D06319B4924B00D58776 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AD93D06519B4924B00D58776 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -108,6 +110,7 @@
 		AD93D05719B4924A00D58776 = {
 			isa = PBXGroup;
 			children = (
+				3C90BFCA1BA8019500DD0453 /* FDLightTheme.plist */,
 				351CBAB61B9D86420024AD9C /* MobihelpSDK */,
 				AD93D06919B4924B00D58776 /* MobihelpSampleApp */,
 				AD93D06219B4924B00D58776 /* Frameworks */,
@@ -222,6 +225,7 @@
 			files = (
 				351CBAC31B9D86420024AD9C /* ReleaseNotes.txt in Resources */,
 				351CBAC11B9D86420024AD9C /* MHModel.bundle in Resources */,
+				3C90BFCB1BA8019500DD0453 /* FDLightTheme.plist in Resources */,
 				351CBAC01B9D86420024AD9C /* MHLocalizable.strings in Resources */,
 				AD93D06E19B4924B00D58776 /* InfoPlist.strings in Resources */,
 				351CBAC21B9D86420024AD9C /* MHResources.bundle in Resources */,
@@ -282,6 +286,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -321,6 +326,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -344,6 +350,7 @@
 				CLANG_MODULES_AUTOLINK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MobihelpSampleApp/Supporting Files/MobihelpSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MobihelpSampleApp/Supporting Files/MobihelpSampleApp-Info.plist";
@@ -370,6 +377,7 @@
 				CLANG_MODULES_AUTOLINK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MobihelpSampleApp/Supporting Files/MobihelpSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MobihelpSampleApp/Supporting Files/MobihelpSampleApp-Info.plist";

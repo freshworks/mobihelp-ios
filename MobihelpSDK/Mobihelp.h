@@ -77,6 +77,12 @@ typedef NS_ENUM(NSInteger, FEEDBACK_TYPE) {
 @property (nonatomic) int launchCountForAppReviewPrompt;
 
 /**
+ *  Launch support in Modal View ( on iPad )
+ */
+
+@property (nonatomic) BOOL enableModalView;
+
+/**
  *  Initialize Mobihelp.
  *
  *  @discussion In order to initialize Mobihelp, you'll need the three parameters mentioned above. Place the Mobihelp initialization code in your app delegate, preferably at the top of the application:didFinishLaunchingWithOptions method. 
