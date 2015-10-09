@@ -4,6 +4,11 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+Ver 1.6.5 
+--------------------------
+Fix video loading issue on iOS9
+Fix to hide Empty Folders
+
 Ver 1.6.4 
 --------------------------
 Fix issue with Conversation on iOS8
