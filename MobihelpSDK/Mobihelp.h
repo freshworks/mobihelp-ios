@@ -26,6 +26,13 @@ typedef NS_ENUM(NSInteger, FEEDBACK_TYPE) {
     FEEDBACK_TYPE_ANONYMOUS
 };
 
+@interface MobihelpFeedbackRequest : NSObject
+
+@property (strong, nonatomic) NSString *subject;
+@property (strong, nonatomic) NSString *message;
+
+@end
+
 /**
  *  This document describes the configuration options that are available for the Mobihelp iOS SDK.
  */
@@ -109,6 +116,16 @@ typedef NS_ENUM(NSInteger, FEEDBACK_TYPE) {
 - (void)setThemeName:(NSString *) themeName;
 
 
+/**
+ *  Set the Localization file name.
+ *
+ *  @discussion Use this method to supply the SDK with your Localization file's name. e.g For MyAppLocalizable.strings you would set it to  "MyAppLocalizable"
+ *
+ *  @param themeName Set Localization File Name.
+ *
+ */
+- (void)setLocalizationName:(NSString *) localizationTableName;
+
 @end
 
 /**
@@ -170,7 +187,17 @@ typedef NS_ENUM(NSInteger, FEEDBACK_TYPE) {
  *  @param parentViewController This is essentially the view controller from where you're attempting to present the feedback screen.
  *
  */
+-(void)presentFeedback:(UIViewController *) parentViewController;
 
+/**
+ *  Present the feedback view.
+ *
+ *  @discussion This method lets you present the feedback view from your app. Users can submit their feedback from this screen.
+ *
+ *  @param parentViewController This is essentially the view controller from where you're attempting to present the feedback screen.
+ *  @param request This is a override to populate the feedback screen with a description. A subject can also be set but this will only be seen by the agent
+ */
+-(void)presentFeedback:(UIViewController *) parentViewController andRequest:(MobihelpFeedbackRequest *)request;
 /**
  *  Present a set of filtered solutions to the user, using an array tags ( Contact Us is disabled )
  *
@@ -184,7 +211,6 @@ typedef NS_ENUM(NSInteger, FEEDBACK_TYPE) {
 -(void)presentSolutions:(UIViewController *) parentViewController withTags:(NSArray *) tagsArray;
 
 
--(void)presentFeedback:(UIViewController *) parentViewController;
 
 /**
  *  Show the list of conversations or tickets.
