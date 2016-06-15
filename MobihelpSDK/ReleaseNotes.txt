@@ -4,9 +4,14 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
-Ver 1.6.7 
+
+Ver 1.6.8 
 --------------------------
-IPV6 compatibility update
+Fix Image attachment issue
+
+Ver 1.6.7
+--------------------------
+Ipv6 update
 
 Ver 1.6.6 
 --------------------------
