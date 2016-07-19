@@ -5,6 +5,10 @@ Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
 
+Ver 1.6.9 
+--------------------------
+Fix default font size for Prompt
+
 Ver 1.6.8 
 --------------------------
 Fix Image attachment issue
