@@ -1,6 +1,8 @@
 Mobihelp for iOS
 =========
 
+### Deprecation Notice : This product is deprecated and no longer supported. To discuss moving to our newer offerings, please reach out to us at support@freshdesk.com
+
 
 Mobihelp SDK lets you provide in-app support to your mobile app users.
 
@@ -10,6 +12,6 @@ Mobihelp SDK lets you provide in-app support to your mobile app users.
   - Agents/Developers get the entire context around the ticket and can resolve issues faster.
   - You can prompt users to review your app on the Appstore and boost your App's rating.
 
-####[Integration Guide](http://developer.freshdesk.com/mobihelp/ios/integration_guide)
+#### [Integration Guide](http://developer.freshdesk.com/mobihelp/ios/integration_guide)
 
-####[API Reference](http://developer.freshdesk.com/mobihelp/ios/api)
+#### [API Reference](http://developer.freshdesk.com/mobihelp/ios/api)
